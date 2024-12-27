@@ -1,22 +1,29 @@
-[02:11:17] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
-[02:11:17] [ForkJoinPool-1-worker-3/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[21:05:48] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
+[21:05:48] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:05:48] [ForkJoinPool-1-worker-3/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[02:11:17] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:11:17] [ForkJoinPool-1-worker-8/WARN]: Mod progressivearchery uses the version 1.1.3.a-1.20.1+trinkets which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:11:17] [ForkJoinPool-1-worker-8/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+[21:05:48] [ForkJoinPool-1-worker-4/WARN]: Mod progressivearchery uses the version 1.1.3.a-1.20.1+trinkets which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:05:48] [ForkJoinPool-1-worker-3/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 92
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[02:11:17] [main/WARN]: Warnings were found!
+[21:05:49] [main/WARN]: Warnings were found!
  - Mod 'Simply Swords' (simplyswords) 1.56.0-1.20.1 recommends version 1.7.2 or later of bettercombat, which is missing!
 	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
-[02:11:17] [main/INFO]: Loading 210 mods:
+[21:05:49] [main/INFO]: Loading 255 mods:
+	- antixray 1.4.6
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
 	- appleskin 2.5.1+mc1.20
 	- architectury 9.2.14
+	- audioplayer 1.20.1-1.13.1
+	   |-- admiral 0.4.5+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   \-- fabric-lifecycle-events-v1 2.2.22+1802ada577
 	- bcc 4.0.1
 	- betterdeserttemples 1.20-Fabric-3.0.3
 	   \-- org_reflections_reflections 0.10.2
@@ -30,6 +37,7 @@
 	- betterstrongholds 1.20-Fabric-4.0.3
 	- betterwitchhuts 1.20-Fabric-3.0.3
 	- bookshelf 20.2.13
+	- brainierbees 1.5
 	- c2me 0.2.0+alpha.11.13
 	   |-- c2me-base 0.2.0+alpha.11.13
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.13
@@ -67,10 +75,12 @@
 	- cloth-config 11.1.136
 	   \-- cloth-basic-math 0.6.1
 	- clumps 12.0.0.4
+	- collective 7.87
 	- comforts 6.4.0+1.20.1
-	- deathchest 1.3
+	- companion 5.2.2+fabric
 	- deeperdarker 1.3.3
 	   \-- customportalapi 0.0.1-beta64-1.20
+	- diversity 2.2.1
 	- easy_mob_farm 8.9.1
 	- easyanvils 8.0.2
 	- echochest 8.0.0
@@ -187,7 +197,9 @@
 	        \-- porting_lib_core 2.3.8+1.20.1
 	- farmersdelightexpansion 1.2.2+1.20.1
 	- fishingreal 1.20.1-1.7.2
+	- fixedanvilrepaircost 3.4
 	- forgeconfigapiport 8.0.1
+	- forgottengraves 3.2.17+1.20.1
 	- fzzy_config 0.5.9+1.20.1
 	   |-- blue_endless_jankson 1.2.3
 	   |-- fabric-permissions-api-v0 0.3.1
@@ -198,22 +210,56 @@
 	   |-- com_electronwill_night-config_core 3.6.7
 	   |-- com_electronwill_night-config_toml 3.6.7
 	   \-- net_jodah_typetools 0.6.3
+	- healingcampfire 6.1
+	- htm 1.1.9
+	   |-- common-protection-api 1.0.0
+	   \-- server_translations_api 2.0.0-beta.2+1.19.4-pre2
+	        \-- packet_tweaker 0.3.1+23w06a
 	- iceberg 1.1.25
 	- immersive_armors 1.6.1+1.20.1
 	- immersive_melodies 0.3.0+1.20.1
 	- immersive_paintings 0.6.7+1.20.1
 	- jade 11.12.0+fabric
+	- jadeaddons 5.4.0+fabric
 	- java 21
 	- journeymap 5.10.3
 	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
 	- justzoom 2.0.0
+	- kiwi 11.8.28+fabric
 	- konkrete 1.8.1
 	- lithium 0.11.2
 	- lolmcv 1.5.6
+	- luckperms 5.4.102
 	- majruszlibrary 7.0.8
 	- majruszsdifficulty 1.9.10
 	- melody 1.0.3
 	- minecraft 1.20.1
+	- mineralchance 3.7
+	- mods-command 1.1.3
+	   |-- adventure-platform-fabric 5.10.0-SNAPSHOT
+	   |    |-- net_kyori_adventure-api 4.14.0
+	   |    |-- net_kyori_adventure-key 4.14.0
+	   |    |-- net_kyori_adventure-platform-api 4.3.0
+	   |    |-- net_kyori_adventure-text-logger-slf4j 4.14.0
+	   |    |-- net_kyori_adventure-text-minimessage 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-ansi 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-gson 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-json 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-plain 4.14.0
+	   |    |-- net_kyori_ansi 1.0.0
+	   |    |-- net_kyori_examination-api 1.3.0
+	   |    \-- net_kyori_examination-string 1.3.0
+	   |-- cloud 1.8.3
+	   |    |-- cloud_commandframework_cloud-brigadier_ 1.8.3
+	   |    |-- cloud_commandframework_cloud-core_ 1.8.3
+	   |    \-- cloud_commandframework_cloud-services_ 1.8.3
+	   |-- cloud_commandframework_cloud-minecraft-extras 1.8.3
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   |-- org_spongepowered_configurate-hocon 4.1.2
+	   |-- org_spongepowered_configurate-yaml 4.1.2
+	   \-- org_yaml_snakeyaml 1.34-SNAPSHOT
 	- owo 0.11.2+1.20
 	- ping-wheel 1.10.0
 	- polymorph 0.49.8+1.20.1
@@ -226,6 +272,7 @@
 	- simplyswords 1.56.0-1.20.1
 	   \-- spruceui 5.0.0+1.20
 	- skinlayers3d 1.7.4
+	- smwyg 1.1.1
 	- tcdcommons 3.12.3+fabric-1.20.1
 	- terrablender 3.0.1.7
 	   |-- com_electronwill_night-config_core 3.6.7
@@ -234,6 +281,8 @@
 	- travelersbackpack 9.1.18
 	   \-- reach-entity-attributes 2.4.0
 	- trinkets 3.7.2
+	- voicechat 1.20.1-2.5.27
+	   \-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
 	- voidtotem 3.0.1
 	- waveycapes 1.4.13
 	- yet_another_config_lib_v3 3.6.2+1.20.1-fabric
@@ -251,98 +300,102 @@
 	- yungscavebiomes 1.20.1-Fabric-2.0.0
 	- yungsextras 1.20-Fabric-4.0.3
 	- yungsmenutweaks 1.20.1-Fabric-1.0.2
-[02:11:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rchongjuarez/minecraft-1.20.1-0/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:11:17] [main/INFO]: Compatibility level set to JAVA_17
-[02:11:17] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[02:11:18] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
-[02:11:18] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[02:11:18] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[02:11:18] [main/INFO]: Mixin Plugin Loaded. (MC: 1.20.1)
-[02:11:18] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[02:11:18] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[02:11:18] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:11:18] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:11:18] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:11:18] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[02:11:18] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[02:11:18] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[02:11:18] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[02:11:18] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[02:11:18] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[02:11:18] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[02:11:18] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[02:11:19] [main/WARN]: Error loading class: io/wispforest/accessories/impl/AccessoriesEventHandler (java.lang.ClassNotFoundException: io/wispforest/accessories/impl/AccessoriesEventHandler)
-[02:11:19] [main/WARN]: @Mixin target io.wispforest.accessories.impl.AccessoriesEventHandler was not found travelersbackpack.mixins.json:AccessoriesEventHandlerMixin from mod travelersbackpack
-[02:11:19] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[02:11:19] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[02:11:19] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[02:11:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:11:26] [main/INFO]: Better Compatibility Checker starting
-[02:11:26] [main/INFO]: Loading config file
-[02:11:26] [main/INFO]: Config file loaded
-[02:11:26] [main/INFO]: Reflections took 47 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:26] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:26] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[02:11:26] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:11:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:27] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[02:11:27] [main/INFO]: Hello Fabric world!
-[02:11:27] [Cicada thread 0/INFO]: 'what'
-[02:11:27] [Cicada thread 0/INFO]: 'that's not you'
-[02:11:27] [Cicada thread 0/INFO]: 'mineblock8 was the eight version of you and the first version of louise and was eaten by dicedpixels in the bite of 87'
-[02:11:27] [Cicada thread 0/INFO]: 'mineblock9 was the ninth version of you and the second version of louise and sadly escaped, before infiltrating this thread as louise'
-[02:11:27] [Cicada thread 0/INFO]: 'mineblock10 was the tenth version of you and was stabbed'
-[02:11:27] [Cicada thread 0/INFO]: 'mineblock11 was the eleventh version of you and the only one deemed sane enough to be released in the wild'
-[02:11:27] [main/ERROR]: No data fixer registered for crystallized_amber
-[02:11:27] [main/ERROR]: No data fixer registered for sculk_jaw
-[02:11:27] [main/INFO]: Initializing Easy Mob Farm (Fabric) ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Debug Manager ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Constants ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Configuration ...
-[02:11:27] [main/INFO]: [Config] Updated configuration path to ./config/easy_mob_farm
-[02:11:27] [main/INFO]: [Config] Registering common configuration ...
-[02:11:27] [main/INFO]: [Config]  Mob Farm Configuration
+[21:05:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rchongjuarez/minecraft-1.20.1-0/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:05:49] [main/INFO]: Compatibility level set to JAVA_17
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:05:49] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[21:05:49] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:05:49] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[21:05:49] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[21:05:49] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[21:05:50] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:50] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:50] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:50] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[21:05:50] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[21:05:50] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[21:05:50] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[21:05:50] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[21:05:50] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[21:05:50] [main/WARN]: Error loading class: fuzs/iteminteractions/impl/world/item/container/ItemContentsProviders (java.lang.ClassNotFoundException: fuzs/iteminteractions/impl/world/item/container/ItemContentsProviders)
+[21:05:50] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[21:05:50] [main/WARN]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/equipment/armor/BacktankBlockEntity)
+[21:05:50] [main/WARN]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess from mod jadeaddons
+[21:05:50] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[21:05:50] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[21:05:50] [main/WARN]: Error loading class: io/wispforest/accessories/impl/AccessoriesEventHandler (java.lang.ClassNotFoundException: io/wispforest/accessories/impl/AccessoriesEventHandler)
+[21:05:50] [main/WARN]: @Mixin target io.wispforest.accessories.impl.AccessoriesEventHandler was not found travelersbackpack.mixins.json:AccessoriesEventHandlerMixin from mod travelersbackpack
+[21:05:51] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[21:05:51] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[21:05:51] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[21:05:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:05:54] [main/WARN]: @Final field field_36535:Ljava/util/List; in diversity.mixins.json:general.enchantTableAcceptFurtherBookshelf.EnchantingTableBlockMixin from mod diversity should be final
+[21:05:59] [main/INFO]: Successfully initialized antixray for fabric
+[21:06:00] [main/INFO]: Better Compatibility Checker starting
+[21:06:00] [main/INFO]: Loading config file
+[21:06:00] [main/INFO]: Config file loaded
+[21:06:00] [main/INFO]: Reflections took 51 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21:06:00] [main/INFO]: Loading Collective version 7.87.
+[21:06:00] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
+[21:06:01] [main/ERROR]: No data fixer registered for crystallized_amber
+[21:06:01] [main/ERROR]: No data fixer registered for sculk_jaw
+[21:06:01] [main/INFO]: Loading
+[21:06:01] [main/INFO]: Register commands...
+[21:06:01] [main/INFO]: Register events...
+[21:06:01] [main/INFO]: Init done
+[21:06:01] [main/INFO]: Initializing Easy Mob Farm (Fabric) ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Debug Manager ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Constants ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Configuration ...
+[21:06:01] [main/INFO]: [Config] Updated configuration path to ./config/easy_mob_farm
+[21:06:01] [main/INFO]: [Config] Registering common configuration ...
+[21:06:01] [main/INFO]: [Config]  Mob Farm Configuration
 
  This configuration file allows you to define the general settings for the Mob Farms.
 
  is up to date: {tier0progressionUpgradeSpeed=0, tier3progressionUpgradeSpeed=9, tier2progressionUpgradeSpeed=6, tier1progressionUpgradeSpeed=3, experienceDropChance=5, speedEnhancementUpgradeSpeed=6}
-[02:11:27] [main/INFO]: [Config]  Mob Farm Bonus Configuration
+[21:06:01] [main/INFO]: [Config]  Mob Farm Bonus Configuration
 
  This configuration file allows you to define the bonus drops for the Mob Farms.
 
@@ -358,7 +411,7 @@ Example:
 To disable a bonus drop for a default definition, set the amount to 0.
 
  is up to date: {swamp_farm::1::minecraft:witch=minecraft:redstone::1::15, animal_plains_farm::3::minecraft:sheep=minecraft:white_wool::1::5, monster_plains_cave_farm::1::minecraft:zombie=minecraft:rotten_flesh::1::15, ocean_farm::2::minecraft:squid=minecraft:ink_sac::1::10, nether_fortress_farm::0::minecraft:blaze=minecraft:blaze_rod::1::20, iron_golem_farm::0::minecraft:iron_golem=minecraft:iron_ingot::1::20, ocean_farm::2::minecraft:cod=minecraft:cod::1::10, jungle_farm::1::minecraft:parrot=minecraft:feather::1::15, swamp_farm::2::minecraft:witch=minecraft:redstone::1::10, ocean_farm::1::minecraft:squid=minecraft:ink_sac::1::15, jungle_farm::1::minecraft:panda=minecraft:bamboo::1::15, swamp_farm::0::minecraft:frog=minecraft:slime_ball::1::20, animal_plains_farm::2::minecraft:sheep=minecraft:white_wool::1::10, animal_plains_farm::3::minecraft:chicken=minecraft:egg::1::5, animal_plains_farm::1::minecraft:sheep=minecraft:white_wool::1::15, iron_golem_farm::1::minecraft:iron_golem=minecraft:iron_ingot::1::15, swamp_farm::3::minecraft:frog=minecraft:slime_ball::1::5, nether_fortress_farm::1::minecraft:blaze=minecraft:blaze_rod::1::15, bee_hive_farm::2::minecraft:bee=minecraft:honeycomb::1::10, desert_farm::1::minecraft:husk=minecraft:sand::1::15, jungle_farm::0::minecraft:panda=minecraft:bamboo::1::20, nether_fortress_farm::0::minecraft:magma_cube=minecraft:magma_cream::1::20, jungle_farm::2::minecraft:parrot=minecraft:feather::1::10, swamp_farm::2::minecraft:frog=minecraft:slime_ball::1::10, animal_plains_farm::0::minecraft:chicken=minecraft:egg::1::20, nether_fortress_farm::3::minecraft:blaze=minecraft:blaze_rod::1::5, animal_plains_farm::1::minecraft:chicken=minecraft:egg::1::15, ocean_farm::0::minecraft:squid=minecraft:ink_sac::1::20, animal_plains_farm::1::minecraft:cow=minecraft:leather::1::15, ocean_farm::0::minecraft:cod=minecraft:cod::1::20, desert_farm::0::minecraft:husk=minecraft:sand::1::20, monster_plains_cave_farm::0::minecraft:zombie=minecraft:rotten_flesh::1::20, desert_farm::3::minecraft:husk=minecraft:sand::1::5, desert_farm::2::minecraft:rabbit=minecraft:rabbit_hide::1::10, animal_plains_farm::2::minecraft:cow=minecraft:leather::1::10, jungle_farm::3::minecraft:panda=minecraft:bamboo::1::5, ocean_farm::3::minecraft:squid=minecraft:ink_sac::1::5, jungle_farm::3::minecraft:parrot=minecraft:feather::1::5, desert_farm::3::minecraft:rabbit=minecraft:rabbit_hide::1::5, ocean_farm::1::minecraft:cod=minecraft:cod::1::15, ocean_farm::3::minecraft:cod=minecraft:cod::1::5, animal_plains_farm::3::minecraft:cow=minecraft:leather::1::5, nether_fortress_farm::3::minecraft:magma_cube=minecraft:magma_cream::1::5, desert_farm::2::minecraft:husk=minecraft:sand::1::10, bee_hive_farm::3::minecraft:bee=minecraft:honeycomb::1::5, swamp_farm::2::minecraft:slime=minecraft:slime_ball::1::10, swamp_farm::1::minecraft:frog=minecraft:slime_ball::1::15, bee_hive_farm::1::minecraft:bee=minecraft:honeycomb::1::15, swamp_farm::0::minecraft:slime=minecraft:slime_ball::1::20, desert_farm::1::minecraft:rabbit=minecraft:rabbit_hide::1::15, animal_plains_farm::0::minecraft:cow=minecraft:leather::1::20, animal_plains_farm::2::minecraft:chicken=minecraft:egg::1::10, swamp_farm::3::minecraft:slime=minecraft:slime_ball::1::5, bee_hive_farm::0::minecraft:bee=minecraft:honeycomb::1::20, jungle_farm::2::minecraft:panda=minecraft:bamboo::1::10, swamp_farm::3::minecraft:witch=minecraft:redstone::1::5, animal_plains_farm::0::minecraft:sheep=minecraft:white_wool::1::20, nether_fortress_farm::2::minecraft:blaze=minecraft:blaze_rod::1::10, nether_fortress_farm::1::minecraft:magma_cube=minecraft:magma_cream::1::15, iron_golem_farm::2::minecraft:iron_golem=minecraft:iron_ingot::1::10, monster_plains_cave_farm::3::minecraft:zombie=minecraft:rotten_flesh::1::5, desert_farm::0::minecraft:rabbit=minecraft:rabbit_hide::1::20, swamp_farm::0::minecraft:witch=minecraft:redstone::1::20, iron_golem_farm::3::minecraft:iron_golem=minecraft:iron_ingot::1::5, monster_plains_cave_farm::2::minecraft:zombie=minecraft:rotten_flesh::1::10, nether_fortress_farm::2::minecraft:magma_cube=minecraft:magma_cream::1::10, jungle_farm::0::minecraft:parrot=minecraft:feather::1::20, swamp_farm::1::minecraft:slime=minecraft:slime_ball::1::15}
-[02:11:27] [main/INFO]: [Config]  Mob Capture Card Configuration
+[21:06:01] [main/INFO]: [Config]  Mob Capture Card Configuration
 
  This configuration file allows you to define the general settings for the Mob Capture Cards.
 
@@ -382,7 +435,7 @@ To disable a bonus drop for a default definition, set the amount to 0.
 
 
  is up to date: {mobCaptureCardFishingDropChance=0.15, mobCaptureCardFishingDropAllowList=, dropMobCaptureCardOnFishing=true, requirePlayerKill=true, mobCaptureCardFishingDropDenyList=, mobCaptureCardKillDropAllowList=, mobCaptureCardKillDropDenyList=, mobCaptureCardKillDropChance=0.1, mobCaptureCardFoilDropChance=0.01, dropMobCaptureCardOnKill=true}
-[02:11:27] [main/INFO]: [Config]  Mob Capture Card Rarity Configuration
+[21:06:01] [main/INFO]: [Config]  Mob Capture Card Rarity Configuration
 
  This configuration file allows you to define the rarity for the Mob Capture Cards.
 
@@ -399,7 +452,7 @@ To disable a bonus drop for a default definition, set the amount to 0.
   - EPIC
 
  is up to date: {minecraft:pillager=COMMON, minecraft:zombified_villager=UNCOMMON, minecraft:blaze=RARE, minecraft:skeleton=COMMON, minecraft:elder_guardian=EPIC, minecraft:ravager=RARE, minecraft:squid=COMMON, minecraft:ghast=RARE, minecraft:strider=RARE, minecraft:guardian=RARE, minecraft:cow=COMMON, minecraft:vindicator=RARE, minecraft:magma_cube=RARE, minecraft:spider=COMMON, minecraft:piglin_brute=EPIC, minecraft:creeper=COMMON, minecraft:warden=EPIC, minecraft:wither=EPIC, minecraft:horse=COMMON, minecraft:evoker=UNCOMMON, minecraft:slime=UNCOMMON, minecraft:polar_bear=UNCOMMON, minecraft:cat=COMMON, minecraft:bat=COMMON, minecraft:illusioner=EPIC, minecraft:phantom=RARE, minecraft:zombified_piglin=UNCOMMON, minecraft:witch=COMMON, minecraft:wither_skeleton=EPIC, minecraft:fox=UNCOMMON, minecraft:pig=COMMON, minecraft:llama=UNCOMMON, minecraft:husk=UNCOMMON, minecraft:sheep=COMMON, minecraft:ender_dragon=EPIC, minecraft:shulker=RARE, minecraft:cave_spider=UNCOMMON, minecraft:villager=COMMON, minecraft:enderman=UNCOMMON, minecraft:stray=UNCOMMON, minecraft:chicken=COMMON, minecraft:zombie=COMMON, minecraft:drowned=COMMON, minecraft:wolf=COMMON, minecraft:panda=UNCOMMON}
-[02:11:27] [main/INFO]: [Config]  Mob Catcher Configuration
+[21:06:01] [main/INFO]: [Config]  Mob Catcher Configuration
 
  This configuration file allows you to define the general settings for the Mob Catcher.
 
@@ -419,83 +472,96 @@ To disable a bonus drop for a default definition, set the amount to 0.
 
 
  is up to date: {VoidBindingChain:MaxEntityHeightToCapture=6.0, EnduringCaptureNet:MaxEntityWidthToCapture=0.9, IronboundContainmentCage:RequiredHealthPercentageToCapture=0.25, EnduringCaptureNet:DenyList=, IronboundContainmentCage:MaxEntityHeightToCapture=2.0, MysticBindingCrystal:AllowList=, IronboundContainmentCage:MaxEntityWidthToCapture=1.5, VoidBindingChain:MaxDurability=16, IronboundContainmentCage:MaxDurability=32, MysticBindingCrystal:MaxEntityWidthToCapture=3.0, MysticBindingCrystal:MaxDurability=32, VoidBindingChain:MaxEntityWidthToCapture=4.0, EnduringCaptureNet:MaxDurability=64, EnduringCaptureNet:AllowList=, VoidBindingChain:AllowList=, IronboundContainmentCage:DenyList=, VoidBindingChain:DenyList=, EnduringCaptureNet:RequiredHealthPercentageToCapture=0.5, MysticBindingCrystal:DenyList=, IronboundContainmentCage:AllowList=, MysticBindingCrystal:MaxEntityHeightToCapture=4.0, MysticBindingCrystal:RequiredHealthPercentageToCapture=0.25, VoidBindingChain:RequiredHealthPercentageToCapture=0.2, EnduringCaptureNet:MaxEntityHeightToCapture=1.4}
-[02:11:27] [main/INFO]: [Config] Registering server configuration ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Experience Manager ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Experience Manager ModExperienceManager
-[02:11:27] [main/INFO]: Register Easy Mob Farm Blocks ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Farm Template blocks ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Farm blocks ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Blocks Entities ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Farm block entities ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Capture Card items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Enhancement items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Filter items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Slot upgrade items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Farm Templates items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Farms items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Mob Catcher items ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Command register event ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Menu Types ...
-[02:11:27] [main/INFO]: Register Easy Mob Farm Menu Types ...
-[02:11:27] [main/INFO]: Constructing common components for easyanvils:main
-[02:11:27] [main/INFO]: Constructing common components for echochest:main
-[02:11:28] [main/INFO]: Loaded config :emi_loot_config in 680ms
-[02:11:28] [main/INFO]: [FANCYMENU] Loading v3.3.2 in server-side mode on FABRIC!
-[02:11:29] [main/ERROR]: No data fixer registered for rotten_tomato
-[02:11:29] [main/INFO]: [FoodExpansion] Farmer's Delight exists! Thank you!
-[02:11:29] [main/INFO]: [FoodExpansion] Loading delicious meals...
-[02:11:29] [main/INFO]: [FoodExpansion] Successfully loaded! Have fun!
-[02:11:29] [main/ERROR]: No data fixer registered for immersive_paintings:painting
-[02:11:29] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
-[02:11:29] [main/ERROR]: No data fixer registered for immersive_paintings:graffiti
-[02:11:29] [main/ERROR]: No data fixer registered for immersive_paintings:glow_graffiti
-[02:11:29] [main/INFO]: Initializing ServerSide Packet Registries
-[02:11:29] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[02:11:29] [main/INFO]: [KONKRETE] Successfully initialized!
-[02:11:29] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[02:11:29] [main/ERROR]: Failed to find class: java.util.zip.ZipException: zip END header not found
-[02:11:29] [main/ERROR]: Failed to find class: java.util.zip.ZipException: zip END header not found
-[02:11:29] [main/ERROR]: No data fixer registered for cerberus
-[02:11:29] [main/ERROR]: No data fixer registered for creeperling
-[02:11:29] [main/ERROR]: No data fixer registered for cursed_armor
-[02:11:29] [main/ERROR]: No data fixer registered for tank
-[02:11:29] [main/INFO]: [MELODY] Disabling Melody since it's loaded server-side.
-[02:11:29] [main/INFO]: Definitely not up to no good
-[02:11:29] [main/INFO]: Maybe we take a page out of the Wisp Forest handbook: When in doubt, steal glisco's code
-[02:11:29] [main/INFO]: [Ping-Wheel] Init
-[02:11:29] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
-[02:11:30] [main/INFO]: Constructing common components for puzzleslib:main
-[02:11:30] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
-[02:11:30] [main/ERROR]: No data fixer registered for battlestandard
-[02:11:30] [main/ERROR]: No data fixer registered for battlestandarddark
-[02:11:30] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
-[02:11:30] [main/INFO]: [STDOUT]: /home/rchongjuarez/minecraft-1.20.1-0/config
-[02:11:30] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[02:11:30] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[02:11:30] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
-[02:11:30] [main/ERROR]: No data fixer registered for 
-[02:11:30] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[02:11:30] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[02:11:30] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[02:11:30] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[02:11:30] [main/INFO]: Loading up Void Totem (Fabric)
-[02:11:30] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[02:11:30] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[02:11:30] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:30] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:30] [main/INFO]: Reflections took 14 ms to scan 1 urls, producing 5 keys and 58 values
-[02:11:30] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 5 keys and 58 values
-[02:11:30] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:30] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:11:30] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[02:11:30] [main/INFO]: Initializing 'TCD Commons API' 3.12.3+fabric-1.20.1 as 'TCDCommonsServer'.
-[02:11:30] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:11:31] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[02:11:31] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
-[02:11:32] [main/INFO]: Register Easy Mob Farm /easy_mob_farm commands for Easy Mob Farm ...
-[02:11:32] [Worker-Main-5/ERROR]: Couldn't load tag create:pressurized_air_sources as it is missing following references: deeperdarker:warden_backtank (from fabric)
-[02:11:32] [Worker-Main-4/ERROR]: Couldn't parse element loot_tables:deeperdarker:blocks/warden_backtank
+[21:06:01] [main/INFO]: [Config] Registering server configuration ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Experience Manager ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Experience Manager ModExperienceManager
+[21:06:01] [main/INFO]: Register Easy Mob Farm Blocks ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Farm Template blocks ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Farm blocks ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Blocks Entities ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Farm block entities ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Capture Card items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Enhancement items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Filter items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Slot upgrade items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Farm Templates items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Farms items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Mob Catcher items ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Command register event ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Menu Types ...
+[21:06:01] [main/INFO]: Register Easy Mob Farm Menu Types ...
+[21:06:01] [main/INFO]: Constructing common components for easyanvils:main
+[21:06:01] [main/INFO]: Constructing common components for echochest:main
+[21:06:02] [main/INFO]: Loaded config :emi_loot_config in 776ms
+[21:06:02] [main/INFO]: [FANCYMENU] Loading v3.3.2 in server-side mode on FABRIC!
+[21:06:02] [main/ERROR]: No data fixer registered for rotten_tomato
+[21:06:02] [main/INFO]: [FoodExpansion] Farmer's Delight exists! Thank you!
+[21:06:02] [main/INFO]: [FoodExpansion] Loading delicious meals...
+[21:06:02] [main/INFO]: [FoodExpansion] Successfully loaded! Have fun!
+[21:06:02] [main/ERROR]: No data fixer registered for immersive_paintings:painting
+[21:06:02] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
+[21:06:02] [main/ERROR]: No data fixer registered for immersive_paintings:graffiti
+[21:06:02] [main/ERROR]: No data fixer registered for immersive_paintings:glow_graffiti
+[21:06:02] [main/INFO]: Initializing ServerSide Packet Registries
+[21:06:02] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[21:06:02] [main/INFO]: Processing 5 KiwiModule annotations
+[21:06:03] [main/INFO]: Module [kiwi:contributors] initialized
+[21:06:03] [main/INFO]: Module [kiwi:block_templates] initialized
+[21:06:03] [main/INFO]: Module [kiwi:block_components] initialized
+[21:06:03] [main/INFO]: Module [kiwi:data] initialized
+[21:06:03] [main/INFO]: 		recipe_serializer: 3
+[21:06:03] [main/INFO]: Module [kiwi:item_templates] initialized
+[21:06:03] [main/INFO]: [KONKRETE] Successfully initialized!
+[21:06:03] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[21:06:03] [main/ERROR]: No data fixer registered for cerberus
+[21:06:03] [main/ERROR]: No data fixer registered for creeperling
+[21:06:03] [main/ERROR]: No data fixer registered for cursed_armor
+[21:06:03] [main/ERROR]: No data fixer registered for tank
+[21:06:03] [main/INFO]: [MELODY] Disabling Melody since it's loaded server-side.
+[21:06:03] [main/INFO]: Definitely not up to no good
+[21:06:03] [main/INFO]: Mods Command detected 256 loaded mods (131 top-level).
+[21:06:03] [main/INFO]: Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask
+[21:06:03] [main/INFO]: [Ping-Wheel] Init
+[21:06:03] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
+[21:06:04] [main/INFO]: Constructing common components for puzzleslib:main
+[21:06:04] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
+[21:06:04] [main/ERROR]: No data fixer registered for battlestandard
+[21:06:04] [main/ERROR]: No data fixer registered for battlestandarddark
+[21:06:04] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[21:06:04] [main/INFO]: [STDOUT]: /home/rchongjuarez/minecraft-1.20.1-0/config
+[21:06:04] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:06:04] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:06:04] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[21:06:04] [main/ERROR]: No data fixer registered for 
+[21:06:04] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[21:06:04] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[21:06:04] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[21:06:04] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[21:06:04] [main/INFO]: [voicechat] Compatibility version 18
+[21:06:04] [main/INFO]: [voicechat] Loading plugins
+[21:06:04] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[21:06:04] [main/INFO]: [voicechat] Initializing plugins
+[21:06:04] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[21:06:04] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[21:06:04] [main/INFO]: Loading up Void Totem (Fabric)
+[21:06:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[21:06:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[21:06:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:04] [main/INFO]: Reflections took 15 ms to scan 1 urls, producing 5 keys and 58 values
+[21:06:04] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 5 keys and 58 values
+[21:06:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:04] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[21:06:06] [main/INFO]: Initializing 'TCD Commons API' 3.12.3+fabric-1.20.1 as 'TCDCommonsServer'.
+[21:06:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:06:07] [main/WARN]: Adding forgottengraves:disablegraves to saved/remote registry.
+[21:06:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:06:07] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
+[21:06:08] [main/INFO]: Register Easy Mob Farm /easy_mob_farm commands for Easy Mob Farm ...
+[21:06:08] [Worker-Main-2/ERROR]: Couldn't load tag create:pressurized_air_sources as it is missing following references: deeperdarker:warden_backtank (from fabric)
+[21:06:08] [Worker-Main-5/ERROR]: Couldn't parse element loot_tables:deeperdarker:blocks/warden_backtank
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'deeperdarker:warden_backtank'
 	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -546,9 +612,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[02:11:33] [main/INFO]: parsing loot tables
-[02:11:33] [main/INFO]: finished parsing loot tables
-[02:11:33] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_diving_boots_smithing
+[21:06:09] [main/INFO]: parsing loot tables
+[21:06:09] [main/INFO]: finished parsing loot tables
+[21:06:10] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_diving_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_diving_boots'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -572,8 +638,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_diving_boots
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.16.9-launcher.1.0.1.jar:1.0.1]
-[02:11:34] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_diving_helmet_smithing
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
+[21:06:10] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_diving_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_diving_helmet'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -597,8 +663,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_diving_helme
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.16.9-launcher.1.0.1.jar:1.0.1]
-[02:11:34] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_backtank_smithing
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
+[21:06:10] [main/ERROR]: Parsing error loading recipe deeperdarker:warden_backtank_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_backtank'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -622,394 +688,116 @@ com.google.gson.JsonSyntaxException: Unknown item 'create:netherite_backtank'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-mc.1.20.1-loader.0.16.9-launcher.1.0.1.jar:1.0.1]
-[02:11:34] [main/INFO]: Loaded 10 recipes
-[02:11:34] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: Missing criteria, expected to find a JsonObject
-[02:11:34] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: Missing criteria, expected to find a JsonObject
-[02:11:34] [main/INFO]: Loaded 2165 advancements
-[02:11:34] [main/INFO]: Loaded 4 fish conversions
-[02:11:34] [main/WARN]: Could not decode GlobalLootModifier with json id voidtotem:end_city_treasure_addition - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: voidtotem:end_city_treasure_addition
-[02:11:35] [main/INFO]: [Quad] loaded default fuel values
-[02:11:35] [main/INFO]: [Quad] loaded quad fuel tags
-[02:11:35] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[02:11:35] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[02:11:35] [main/INFO]: Applied 488 biome modifications to 65 of 71 new biomes in 44.42 ms
-[02:11:35] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
-[02:11:35] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 9 milliseconds
-[02:11:35] [Server thread/INFO]: Loading server config for easyanvils
-[02:11:35] [Thread-5/INFO]: Reloading server config for easyanvils
-[02:11:35] [Thread-5/INFO]: Reloading server config for easyanvils
-[02:11:35] [Server thread/INFO]: [Quad] cached original fuel map with count of: 363
-[02:11:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[02:11:35] [Server thread/INFO]: Loading properties
-[02:11:35] [Server thread/INFO]: Default game type: SURVIVAL
-[02:11:35] [Server thread/INFO]: Generating keypair
-[02:11:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:11:35] [Server thread/INFO]: Using epoll channel type
-[02:11:36] [Server thread/INFO]: Preparing level "world"
-[02:11:36] [Server thread/INFO]: Enforcing safe world random access
-[02:11:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:11:38] [C2ME worker #4/INFO]: menu.preparingSpawn
-[02:11:38] [C2ME worker #2/INFO]: menu.preparingSpawn
-[02:11:39] [C2ME worker #4/INFO]: menu.preparingSpawn
-[02:11:39] [minecraft_overworld - Light/INFO]: menu.preparingSpawn
-[02:11:39] [Server thread/INFO]: Time elapsed: 1117 ms
-[02:11:39] [Server thread/INFO]: Done (3.565s)! For help, type "help"
-[02:11:39] [Server thread/INFO]: Start loading plugin from Jade
-[02:11:39] [Server thread/INFO]: Start loading plugin from Jade
-[02:11:39] [Server thread/INFO]: Start loading plugin from Jade
-[02:11:51] [User Authenticator #1/INFO]: UUID of player TonaChong89 is 257dff7c-af02-4927-b963-71481eb4a5ba
-[02:11:51] [Server thread/INFO]: TonaChong89[/187.153.23.162:60411] logged in with entity id 134 at (-238.02153578403204, -45.0, 199.30000001192093)
-[02:11:51] [Server thread/INFO]: Syncing config to TonaChong89 (257dff7c-af02-4927-b963-71481eb4a5ba)
-[02:11:51] [Server thread/INFO]: Loading config from file...
-[02:11:51] [Server thread/INFO]: multiplayer.player.joined
-[02:11:52] [Netty Epoll Server IO #1/INFO]: Channel update: TonaChong89 -> default
-[02:11:52] [Netty Epoll Server IO #1/INFO]: [ShulkerBoxTooltip] TonaChong89: protocol version: 2.0
-[02:11:52] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[02:11:52] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
-[02:11:52] [Netty Epoll Server IO #1/INFO]: [ShulkerBoxTooltip] TonaChong89: protocol version: 2.0
-[02:17:54] [Server thread/INFO]: death.attack.fall
-[02:17:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:17:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:17:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:22:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@606fec48[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53286) lost connection: multiplayer.disconnect.generic
-[02:22:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@64716580[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53288) lost connection: multiplayer.disconnect.generic
-[02:23:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@7ace3274[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53290) lost connection: multiplayer.disconnect.generic
-[02:23:05] [Server thread/INFO]: com.mojang.authlib.GameProfile@59f0c537[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53293) lost connection: multiplayer.disconnect.generic
-[02:23:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@d5baa4c[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53294) lost connection: multiplayer.disconnect.generic
-[02:23:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@5336b6c2[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53295) lost connection: multiplayer.disconnect.generic
-[02:23:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@10e0d52d[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53297) lost connection: multiplayer.disconnect.generic
-[02:23:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@38388028[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53299) lost connection: multiplayer.disconnect.generic
-[02:23:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@5835b668[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53300) lost connection: multiplayer.disconnect.generic
-[02:23:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e87dcc[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53301) lost connection: multiplayer.disconnect.generic
-[02:23:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@23d058f[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53302) lost connection: multiplayer.disconnect.generic
-[02:23:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@1aa4fb30[id=<null>,name=Pinolesmaximus,properties={},legacy=false] (/187.254.111.240:53304) lost connection: multiplayer.disconnect.generic
-[02:24:18] [User Authenticator #2/INFO]: UUID of player Pinolesmaximus is 7ef420ee-96ef-4a2c-8699-d1e8901b50ec
-[02:24:18] [Server thread/INFO]: Pinolesmaximus[/187.254.111.240:58979] logged in with entity id 3918 at (-843.5765045753185, 16.0, -1058.1735212568835)
-[02:24:18] [Server thread/INFO]: Syncing config to Pinolesmaximus (7ef420ee-96ef-4a2c-8699-d1e8901b50ec)
-[02:24:18] [Server thread/INFO]: Loading config from file...
-[02:24:18] [Server thread/INFO]: multiplayer.player.joined
-[02:24:19] [Netty Epoll Server IO #14/INFO]: Channel update: Pinolesmaximus -> default
-[02:24:20] [Netty Epoll Server IO #14/INFO]: [ShulkerBoxTooltip] Pinolesmaximus: protocol version: 2.0
-[02:26:11] [Server thread/INFO]: Villager class_1646['Archer'/4087, l='ServerLevel[world]', x=-734.70, y=111.00, z=-1101.69] died, message: 'death.attack.mob'
-[02:26:57] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5650, l='ServerLevel[world]', x=-710.79, y=109.70, z=-1094.49]
-[02:26:59] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5661, l='ServerLevel[world]', x=-711.47, y=109.52, z=-1094.70]
-[02:27:01] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5672, l='ServerLevel[world]', x=-711.05, y=109.52, z=-1094.70]
-[02:27:03] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5679, l='ServerLevel[world]', x=-711.10, y=109.52, z=-1094.70]
-[02:27:05] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5681, l='ServerLevel[world]', x=-707.66, y=107.52, z=-1095.39]
-[02:27:07] [Server thread/WARN]: UUID of added entity already exists: FlintArrowEntity['entity.progressivearchery.flint_arrow'/5692, l='ServerLevel[world]', x=-706.29, y=107.29, z=-1095.29]
-[02:27:07] [Server thread/INFO]: death.attack.arrow
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:07] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[02:27:09] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/5947, l='ServerLevel[world]', x=-707.69, y=108.27, z=-1095.70]
-[02:27:10] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/6036, l='ServerLevel[world]', x=-708.21, y=108.64, z=-1094.97]
-[02:27:12] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/6142, l='ServerLevel[world]', x=-707.07, y=106.52, z=-1094.70]
-[02:33:52] [User Authenticator #3/INFO]: UUID of player voidexiled is 7cabcf68-afa1-4149-b9ae-777e91524432
-[02:33:52] [Server thread/INFO]: voidexiled[/187.190.158.253:55863] logged in with entity id 8615 at (-874.0846885167543, 63.5625, 785.3143590855162)
-[02:33:52] [Server thread/INFO]: Syncing config to voidexiled (7cabcf68-afa1-4149-b9ae-777e91524432)
-[02:33:52] [Server thread/INFO]: Loading config from file...
-[02:33:52] [Server thread/INFO]: multiplayer.player.joined
-[02:33:52] [Netty Epoll Server IO #15/ERROR]: Error receiving packet 23
-io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1454) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1383) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.UnpooledHeapByteBuf.copy(UnpooledHeapByteBuf.java:534) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.copy(AbstractByteBuf.java:1194) ~[netty-buffer-4.1.82.Final.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2658.method_11052(class_2658.java:55) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:45) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:14) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:220) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10761(class_2535.java:212) ~[server-intermediary.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[02:33:52] [Netty Epoll Server IO #15/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.EncoderException: io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:125) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:220) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10761(class_2535.java:212) ~[server-intermediary.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1454) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1383) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.UnpooledHeapByteBuf.copy(UnpooledHeapByteBuf.java:534) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.copy(AbstractByteBuf.java:1194) ~[netty-buffer-4.1.82.Final.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2658.method_11052(class_2658.java:55) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:45) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:14) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.82.Final.jar:?]
-	... 21 more
-[02:33:52] [Server thread/INFO]: voidexiled lost connection: disconnect.genericReason
-[02:33:52] [Server thread/INFO]: multiplayer.player.left
-[02:34:00] [User Authenticator #4/INFO]: UUID of player voidexiled is 7cabcf68-afa1-4149-b9ae-777e91524432
-[02:34:00] [Server thread/INFO]: voidexiled[/187.190.158.253:48858] logged in with entity id 8752 at (-874.0846885167543, 63.5625, 785.3143590855162)
-[02:34:00] [Server thread/INFO]: Syncing config to voidexiled (7cabcf68-afa1-4149-b9ae-777e91524432)
-[02:34:00] [Server thread/INFO]: Loading config from file...
-[02:34:00] [Server thread/INFO]: multiplayer.player.joined
-[02:34:01] [Netty Epoll Server IO #0/INFO]: Channel update: voidexiled -> default
-[02:34:01] [Netty Epoll Server IO #0/INFO]: [ShulkerBoxTooltip] voidexiled: protocol version: 2.0
-[02:34:02] [Netty Epoll Server IO #0/INFO]: [ShulkerBoxTooltip] voidexiled: protocol version: 2.0
-[02:34:40] [Server thread/INFO]: chat.type.text
-[02:37:27] [Server thread/INFO]: chat.type.admin
-[02:37:41] [Server thread/INFO]: chat.type.admin
-[02:37:55] [Server thread/INFO]: chat.type.admin
-[02:38:30] [Server thread/INFO]: chat.type.admin
-[02:49:49] [Server thread/INFO]: Set owner for mob farm block entity to class_3222['voidexiled'/8752, l='ServerLevel[world]', x=-874.58, y=63.00, z=784.23]
-[02:50:12] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/16631, l='ServerLevel[world]', x=-659.43, y=85.52, z=-1058.44]
-[02:50:14] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/16641, l='ServerLevel[world]', x=-657.09, y=84.52, z=-1054.84]
-[02:50:16] [Server thread/WARN]: UUID of added entity already exists: GoldenArrowEntity['entity.progressivearchery.golden_arrow'/16652, l='ServerLevel[world]', x=-654.70, y=82.52, z=-1053.30]
-[02:50:19] [Server thread/INFO]: Villager class_1646['Archer'/4116, l='ServerLevel[world]', x=-644.94, y=80.00, z=-1056.49] died, message: 'death.attack.mob'
-[02:53:47] [Server thread/INFO]: chat.type.admin
-[02:53:54] [Server thread/INFO]: Set owner for mob farm block entity to class_3222['voidexiled'/8752, l='ServerLevel[world]', x=-875.06, y=63.00, z=786.58]
-[02:54:00] [Server thread/INFO]: chat.type.admin
-[02:54:46] [Server thread/INFO]: chat.type.admin
-[02:54:57] [Server thread/INFO]: Set owner for mob farm block entity to class_3222['voidexiled'/8752, l='ServerLevel[world]', x=-872.42, y=64.00, z=791.08]
-[03:00:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@1b8de616[id=<null>,name=ServerSeekerV2,properties={},legacy=false] (/154.213.192.15:54276) lost connection: multiplayer.disconnect.generic
-[03:00:12] [Server thread/INFO]: chat.type.advancement.task
-[03:03:13] [Server thread/INFO]: chat.type.advancement.task
-[03:06:54] [Server thread/INFO]: death.attack.arrow
-[03:06:54] [Server thread/INFO]: Created new backpack backup file for TonaChong89 with unique ID travelersbackpack.standard_27.12.2024-03.06.54.dat
-[03:06:54] [Server thread/INFO]: Your backpack has been placed at X: -150 Y: -46 Z: 126
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:06:54] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
-[03:15:37] [Server thread/INFO]: chat.type.admin
-[03:15:59] [Server thread/INFO]: chat.type.admin
-[03:16:06] [Server thread/INFO]: chat.type.admin
-[03:16:09] [Server thread/INFO]: chat.type.admin
-[03:16:21] [Server thread/INFO]: chat.type.admin
-[03:16:40] [Server thread/INFO]: chat.type.admin
-[03:17:12] [Server thread/INFO]: chat.type.admin
-[03:17:14] [Server thread/INFO]: chat.type.admin
-[03:17:14] [Server thread/INFO]: chat.type.admin
-[03:17:15] [Server thread/INFO]: chat.type.admin
-[03:17:16] [Server thread/INFO]: chat.type.admin
-[03:17:17] [Server thread/INFO]: chat.type.admin
-[03:17:17] [Server thread/INFO]: chat.type.admin
-[03:17:19] [Server thread/INFO]: chat.type.admin
-[03:17:33] [Server thread/INFO]: TonaChong89 lost connection: multiplayer.disconnect.generic
-[03:17:33] [Server thread/INFO]: multiplayer.player.left
-[03:18:49] [Server thread/INFO]: voidexiled lost connection: multiplayer.disconnect.generic
-[03:18:49] [Server thread/INFO]: multiplayer.player.left
-[03:38:55] [Server thread/INFO]: chat.type.advancement.task
-[03:43:37] [Server thread/INFO]: Villager class_1646['Archer'/5774, l='ServerLevel[world]', x=-692.70, y=110.00, z=-1120.66] died, message: 'death.attack.mob'
-[03:45:29] [Server thread/INFO]: Pinolesmaximus lost connection: multiplayer.disconnect.generic
-[03:45:29] [Server thread/INFO]: multiplayer.player.left
-[04:16:19] [User Authenticator #5/INFO]: UUID of player Pinolesmaximus is 7ef420ee-96ef-4a2c-8699-d1e8901b50ec
-[04:16:19] [Server thread/INFO]: Pinolesmaximus[/187.254.111.240:57407] logged in with entity id 37306 at (-719.6999999880791, 97.0, -1044.3881151255634)
-[04:16:19] [Server thread/INFO]: Syncing config to Pinolesmaximus (7ef420ee-96ef-4a2c-8699-d1e8901b50ec)
-[04:16:19] [Server thread/INFO]: Loading config from file...
-[04:16:19] [Server thread/INFO]: multiplayer.player.joined
-[04:16:21] [Netty Epoll Server IO #6/INFO]: Channel update: Pinolesmaximus -> default
-[04:16:21] [Netty Epoll Server IO #6/INFO]: [ShulkerBoxTooltip] Pinolesmaximus: protocol version: 2.0
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:02] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:03] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:03] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:03] [Server thread/INFO]: [STDOUT]: AAGA
-[04:22:03] [Server thread/INFO]: [STDOUT]: AAGA
-[04:28:39] [Server thread/INFO]: Pinolesmaximus lost connection: multiplayer.disconnect.generic
-[04:28:39] [Server thread/INFO]: multiplayer.player.left
-[05:19:04] [User Authenticator #6/INFO]: UUID of player Basito123 is 6a4391d9-f25c-4e9e-a167-631a12513f4c
-[05:19:04] [Server thread/INFO]: Basito123[/187.190.181.229:53262] logged in with entity id 39939 at (-551.6766008536043, 63.0, -176.24399940725942)
-[05:19:04] [Server thread/INFO]: Syncing config to Basito123 (6a4391d9-f25c-4e9e-a167-631a12513f4c)
-[05:19:04] [Server thread/INFO]: Loading config from file...
-[05:19:04] [Server thread/INFO]: multiplayer.player.joined
-[05:19:04] [Netty Epoll Server IO #8/ERROR]: Error receiving packet 23
-io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1454) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1383) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.UnpooledHeapByteBuf.copy(UnpooledHeapByteBuf.java:534) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.copy(AbstractByteBuf.java:1194) ~[netty-buffer-4.1.82.Final.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2658.method_11052(class_2658.java:55) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:45) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:14) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:220) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10761(class_2535.java:212) ~[server-intermediary.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:19:04] [Netty Epoll Server IO #8/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.EncoderException: io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:125) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:220) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10761(class_2535.java:212) ~[server-intermediary.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: io.netty.util.IllegalReferenceCountException: refCnt: 0
-	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1454) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1383) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.UnpooledHeapByteBuf.copy(UnpooledHeapByteBuf.java:534) ~[netty-buffer-4.1.82.Final.jar:?]
-	at io.netty.buffer.AbstractByteBuf.copy(AbstractByteBuf.java:1194) ~[netty-buffer-4.1.82.Final.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2540.copy(class_2540.java:1628) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2658.method_11052(class_2658.java:55) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:45) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:14) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.82.Final.jar:?]
-	... 21 more
-[05:19:05] [Server thread/INFO]: Basito123 lost connection: disconnect.genericReason
-[05:19:05] [Server thread/INFO]: multiplayer.player.left
-[09:43:01] [Netty Epoll Server IO #9/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[16:45:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@6f22064c[id=<null>,name=ServerSeekerV2,properties={},legacy=false] (/154.213.192.15:53722) lost connection: multiplayer.disconnect.generic
-[20:27:28] [Server thread/INFO]: Stopping server
-[20:27:28] [Server thread/INFO]: Saving players
-[20:27:28] [Server thread/INFO]: Saving worlds
-[20:27:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:27:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:27:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:27:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[20:27:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:27:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:27:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:27:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[20:27:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:27:29] [C2ME Storage #6/INFO]: Storage thread Thread[#76,C2ME Storage #6,8,main] stopped
-[20:27:29] [C2ME Storage #4/INFO]: Storage thread Thread[#74,C2ME Storage #4,8,main] stopped
-[20:27:29] [C2ME Storage #9/INFO]: Storage thread Thread[#79,C2ME Storage #9,8,main] stopped
-[20:27:29] [C2ME Storage #12/INFO]: Storage thread Thread[#82,C2ME Storage #12,8,main] stopped
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
+[21:06:10] [main/INFO]: Loaded 10 recipes
+[21:06:10] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: Missing criteria, expected to find a JsonObject
+[21:06:10] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: Missing criteria, expected to find a JsonObject
+[21:06:10] [main/INFO]: Loaded 2169 advancements
+[21:06:10] [main/INFO]: Loaded 4 fish conversions
+[21:06:10] [main/WARN]: Could not decode GlobalLootModifier with json id voidtotem:end_city_treasure_addition - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: voidtotem:end_city_treasure_addition
+[21:06:10] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 32 translation keys
+[21:06:11] [main/INFO]: [Quad] loaded default fuel values
+[21:06:11] [main/INFO]: [Quad] loaded quad fuel tags
+[21:06:11] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:06:11] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:06:11] [main/INFO]: Applied 488 biome modifications to 65 of 71 new biomes in 42.70 ms
+[21:06:11] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[21:06:11] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 8 milliseconds
+[21:06:11] [Server thread/WARN]: Configuration file ./config/easyanvils-server.toml is not correct. Correcting
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous.anvil_break_chance was corrected from null to its default, 0.05. 
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous.risk_free_anvil_renaming was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous.edit_name_tags_no_anvil was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous.renaming_supports_formatting was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key miscellaneous.anvil_repairing was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.rare_enchantment_multiplier was corrected from null to its default, 4. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.repair_with_other_item_cost was corrected from null to its default, 2. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.common_enchantment_multiplier was corrected from null to its default, 1. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.very_rare_enchantment_multiplier was corrected from null to its default, 8. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.uncommon_enchantment_multiplier was corrected from null to its default, 2. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.halved_book_costs was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.repair_with_material_unit_cost was corrected from null to its default, 1. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.too_expensive_limit was corrected from null to its default, -1. 
+[21:06:11] [Server thread/WARN]: Incorrect key costs.free_renames was corrected from null to its default, ALL_ITEMS. 
+[21:06:11] [Server thread/WARN]: Incorrect key prior_work_penalty was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:06:11] [Server thread/WARN]: Incorrect key prior_work_penalty.rename_and_repair_costs was corrected from null to its default, FIXED. 
+[21:06:11] [Server thread/WARN]: Incorrect key prior_work_penalty.prior_work_penalty was corrected from null to its default, FIXED. 
+[21:06:11] [Server thread/WARN]: Incorrect key prior_work_penalty.penalty_free_renames_and_repairs was corrected from null to its default, true. 
+[21:06:11] [Server thread/WARN]: Incorrect key prior_work_penalty.prior_work_penalty_constant was corrected from null to its default, 4. 
+[21:06:11] [Server thread/INFO]: Loading server config for easyanvils
+[21:06:11] [Thread-7/INFO]: Reloading server config for easyanvils
+[21:06:11] [Thread-7/INFO]: Reloading server config for easyanvils
+[21:06:11] [Server thread/INFO]: [Quad] cached original fuel map with count of: 363
+[21:06:11] [Server thread/INFO]:         __    
+[21:06:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[21:06:11] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.92.2+1.20.1
+[21:06:11] [Server thread/INFO]: 
+[21:06:11] [Server thread/INFO]: Loading configuration...
+[21:06:12] [Server thread/INFO]: Loading storage provider... [H2]
+[21:06:12] [Server thread/INFO]: Loading internal permission managers...
+[21:06:12] [Server thread/INFO]: Performing initial data load...
+[21:06:12] [Server thread/INFO]: Successfully enabled. (took 836ms)
+[21:06:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:06:12] [Server thread/INFO]: Loading properties
+[21:06:12] [Server thread/INFO]: Default game type: SURVIVAL
+[21:06:12] [Server thread/INFO]: Generating keypair
+[21:06:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:06:12] [Server thread/INFO]: Using epoll channel type
+[21:06:12] [Server thread/INFO]: Preparing level "world"
+[21:06:12] [Server thread/INFO]: Enforcing safe world random access
+[21:06:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:06:16] [C2ME worker #3/INFO]: menu.preparingSpawn
+[21:06:16] [C2ME worker #2/INFO]: menu.preparingSpawn
+[21:06:16] [C2ME worker #3/INFO]: menu.preparingSpawn
+[21:06:17] [Server thread/INFO]: Time elapsed: 1250 ms
+[21:06:17] [Server thread/INFO]: Done (4.187s)! For help, type "help"
+[21:06:17] [Server thread/INFO]: Loading audio file volume overrides...
+[21:06:17] [Server thread/INFO]: Loading audio file name mappings...
+[21:06:17] [Server thread/INFO]: Start loading plugin from Jade
+[21:06:17] [Server thread/INFO]: Start loading plugin from Jade
+[21:06:17] [Server thread/INFO]: Start loading plugin from Jade
+[21:06:17] [Server thread/INFO]: Start loading plugin from Jade Addons
+[21:06:17] [Server thread/INFO]: Start loading plugin from Kiwi Library
+[21:06:17] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[21:06:31] [User Authenticator #1/INFO]: UUID of player voidexiled is 7cabcf68-afa1-4149-b9ae-777e91524432
+[21:06:31] [Server thread/INFO]: voidexiled[/187.190.133.253:58131] logged in with entity id 104 at (-687.4590113217447, 27.0, 886.8262422142899)
+[21:06:32] [Server thread/INFO]: Syncing config to voidexiled (7cabcf68-afa1-4149-b9ae-777e91524432)
+[21:06:32] [Server thread/INFO]: Loading config from file...
+[21:06:32] [Server thread/INFO]: Using Fabric Permissions API
+[21:06:32] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[21:06:32] [Server thread/INFO]: multiplayer.player.joined
+[21:06:36] [Netty Epoll Server IO #1/INFO]: Channel update: voidexiled -> default
+[21:06:36] [Server thread/INFO]: voidexiled lost connection: multiplayer.disconnect.generic
+[21:06:36] [Server thread/INFO]: multiplayer.player.left
+[21:06:36] [Server thread/INFO]: [voicechat] Disconnecting client voidexiled
+[21:10:17] [User Authenticator #2/INFO]: UUID of player voidexiled is 7cabcf68-afa1-4149-b9ae-777e91524432
+[21:10:17] [Server thread/INFO]: voidexiled[/187.190.133.253:58503] logged in with entity id 351 at (-687.4590113217447, 27.0, 886.8262422142899)
+[21:10:17] [Server thread/INFO]: Syncing config to voidexiled (7cabcf68-afa1-4149-b9ae-777e91524432)
+[21:10:17] [Server thread/INFO]: Loading config from file...
+[21:10:17] [Server thread/INFO]: multiplayer.player.joined
+[21:10:19] [Netty Epoll Server IO #2/INFO]: Channel update: voidexiled -> default
+[21:10:20] [Netty Epoll Server IO #2/INFO]: [ShulkerBoxTooltip] voidexiled: protocol version: 2.0
+[21:10:20] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[21:10:20] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[21:10:51] [Server thread/INFO]: voidexiled lost connection: multiplayer.disconnect.generic
+[21:10:51] [Server thread/INFO]: multiplayer.player.left
+[21:10:51] [Server thread/INFO]: [voicechat] Disconnecting client voidexiled
+[21:12:27] [Server thread/INFO]: Starting shutdown process...
+[21:12:27] [Server thread/INFO]: Closing storage...
+[21:12:27] [Server thread/INFO]: Goodbye!
+[21:12:27] [Server thread/INFO]: Stopping server
+[21:12:27] [Server thread/INFO]: Saving players
+[21:12:27] [Server thread/INFO]: Saving worlds
+[21:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[21:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[21:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:12:27] [C2ME Storage #9/INFO]: Storage thread Thread[#120,C2ME Storage #9,8,main] stopped
+[21:12:27] [C2ME Storage #6/INFO]: Storage thread Thread[#117,C2ME Storage #6,8,main] stopped
+[21:12:27] [C2ME Storage #12/INFO]: Storage thread Thread[#123,C2ME Storage #12,8,main] stopped
