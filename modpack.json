@@ -1,0 +1,1052 @@
+{
+	"modPackVersion": "1.0.0",
+	"modPackName": "Timliland Server-side",
+	"file": {
+		"config/MouseTweaks.cfg": {
+			"Hash": "3f726663c30033cd244e35d874ce6c9cec3ef004",
+			"DownloadLink": null
+		},
+		"config/appleskin.json5": {
+			"Hash": "4994b8afdf50b6412aa302a70c31a9f04bfb73fa",
+			"DownloadLink": null
+		},
+		"config/bcc.json": {
+			"Hash": "9ffc56f62f68c2f8862f774b2f88cd4d44e58150",
+			"DownloadLink": null
+		},
+		"config/betterdeserttemples-fabric-1_20.toml": {
+			"Hash": "984d1b7f376bc2095f80cfea7d631e5dc93ed94c",
+			"DownloadLink": null
+		},
+		"config/betterdeserttemples/README.txt": {
+			"Hash": "e9aa15b807f311961f737cd9c19fcf1028a69de3",
+			"DownloadLink": null
+		},
+		"config/betterdeserttemples/fabric-1_20/README.txt": {
+			"Hash": "80a9d927f4978590ec21d5ae2e2a8e68b16f3277",
+			"DownloadLink": null
+		},
+		"config/betterdeserttemples/fabric-1_20/armorstands.json": {
+			"Hash": "72b2bc31cb53b5aa07ecb3ebc2a17f4500458455",
+			"DownloadLink": null
+		},
+		"config/betterdeserttemples/fabric-1_20/itemframes.json": {
+			"Hash": "ff0ce3d837be295f652f5418da9c429a05428611",
+			"DownloadLink": null
+		},
+		"config/betterdungeons-fabric-1_20.toml": {
+			"Hash": "07c62f3883fd98b998a6a8f61408dfdc2ab136dc",
+			"DownloadLink": null
+		},
+		"config/betterendisland-fabric-1_20.toml": {
+			"Hash": "ededdfb41122b02cab4aadd6dad6a6ba521743ab",
+			"DownloadLink": null
+		},
+		"config/betterfortresses-fabric-1_20.toml": {
+			"Hash": "bfdf06660a4a3f3905f008643632c9cce5dba9c6",
+			"DownloadLink": null
+		},
+		"config/betterfortresses/README.txt": {
+			"Hash": "ee9390a52c06710114e95c37236335e1ec03ee83",
+			"DownloadLink": null
+		},
+		"config/betterfortresses/fabric-1_20/README.txt": {
+			"Hash": "abaeda3856b09c5dd80e1b5ada9aaf171d038995",
+			"DownloadLink": null
+		},
+		"config/betterfortresses/fabric-1_20/itemframes.json": {
+			"Hash": "f60b36086887892b4ce7c65b237492c4e038043f",
+			"DownloadLink": null
+		},
+		"config/betterjungletemples-fabric-1_20.toml": {
+			"Hash": "e42bea2a9396acb277430855d3c485efcd419032",
+			"DownloadLink": null
+		},
+		"config/bettermineshafts-fabric-1_20.toml": {
+			"Hash": "10ed3ebb8f0798c7a148af56256f8a05cf99c1a2",
+			"DownloadLink": null
+		},
+		"config/betteroceanmonuments-fabric-1_20.toml": {
+			"Hash": "c95152c4df0456f2bc8ca6272fee45873af4ef6b",
+			"DownloadLink": null
+		},
+		"config/betterpingdisplay.json": {
+			"Hash": "51a7efebd32597a49b4c6f151b36845182ab339a",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds-fabric-1_20.toml": {
+			"Hash": "34d67ce716672a9f111927b64d98126074ca52f3",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/README.txt": {
+			"Hash": "c998f33867863c69c0ee99af679ecfad189513bd",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/fabric-1_20/README.txt": {
+			"Hash": "e9770e9a6a550871594e7e57326c26a97f912fac",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/fabric-1_20/armorstands.json": {
+			"Hash": "f276a4d5f162e1f35223e42a492c592bbd7f9355",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/fabric-1_20/itemframes.json": {
+			"Hash": "9fe8f400a3dda94eb7a550be2e38bae39270a413",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/fabric-1_20/ores.json": {
+			"Hash": "de113018b146133daddf2125e47375845b92dd00",
+			"DownloadLink": null
+		},
+		"config/betterstrongholds/fabric-1_20/rareblocks.json": {
+			"Hash": "e0ecbba3cd67d02ad7956d8898a69b349f7e8e14",
+			"DownloadLink": null
+		},
+		"config/betterwitchhuts-fabric-1_20.toml": {
+			"Hash": "2406cb4135c28a7ce234ec470a274a8995ecf3e5",
+			"DownloadLink": null
+		},
+		"config/blur.json": {
+			"Hash": "f2b58060e6467e5af6d788c8dc59bde0c403b131",
+			"DownloadLink": null
+		},
+		"config/c2me.toml": {
+			"Hash": "134e5b5974bc03669d005c2982f7c4c7d28dc74a",
+			"DownloadLink": null
+		},
+		"config/cardinal-components-api.properties": {
+			"Hash": "fa888bcbf7e935bdae5567d26ffad1ac2f93b35c",
+			"DownloadLink": null
+		},
+		"config/chat_heads.json5": {
+			"Hash": "54fb55039959a3a24af55fc36792534696b61668",
+			"DownloadLink": null
+		},
+		"config/chesttracker.json5": {
+			"Hash": "353ab995caea7dd2fb796702aa609978b14d71b7",
+			"DownloadLink": null
+		},
+		"config/comforts-server.toml": {
+			"Hash": "28ab4c7c925eff47d552dc3ef7eb404ddfc6336f",
+			"DownloadLink": null
+		},
+		"config/continuity.json": {
+			"Hash": "dcd61957c3ede67c890235ee6615d0f0945118cd",
+			"DownloadLink": null
+		},
+		"config/crowdin.txt": {
+			"Hash": "f31ebd67175d181274cdb9457c4017ce098ffcf3",
+			"DownloadLink": null
+		},
+		"config/deathchest.properties": {
+			"Hash": "f234a1352ecafa41c7e442aac4de8897b68a9484",
+			"DownloadLink": null
+		},
+		"config/deeperdarker.json5": {
+			"Hash": "0678592f97972be40dbbb07e39eee32b23ea7bd0",
+			"DownloadLink": null
+		},
+		"config/durabilityviewer.json": {
+			"Hash": "b330e645d04485b48c1f885d0ec69b452d905897",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_capture_card.cfg": {
+			"Hash": "77e0e7ee6e25d449c9ad4073932d298a1d8ed5e3",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_capture_card_models.cfg": {
+			"Hash": "62441caf6988e559b181936e1c668666ab2f80e3",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_capture_card_rarity.cfg": {
+			"Hash": "8b001b25e31c9c942bc68fb41495101619a2c672",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_catcher.cfg": {
+			"Hash": "f37c3e5b0735c7b9002c1be86181e2b912bc3d35",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_farm.cfg": {
+			"Hash": "d49c22a0083b38c958c56a8b2e89856b1d3f8574",
+			"DownloadLink": null
+		},
+		"config/easy_mob_farm/mob_farm_bonus.cfg": {
+			"Hash": "795db05fa6a65997f7d6bd4778f5cf09b801fa56",
+			"DownloadLink": null
+		},
+		"config/easyanvils-client.toml": {
+			"Hash": "b65dc47acceafd314f1e8e9195546c4ce1c162ed",
+			"DownloadLink": null
+		},
+		"config/emi.css": {
+			"Hash": "61a6f5744462cd2ec2d10da40f056be8a4cdaa6e",
+			"DownloadLink": null
+		},
+		"config/emi_loot_config.toml": {
+			"Hash": "ef4563c47c71220d7437c6f7e9607c181f16f081",
+			"DownloadLink": null
+		},
+		"config/emitrades.json5": {
+			"Hash": "4c7df3b8eab2e322d71f167f4129cde54f322f0b",
+			"DownloadLink": null
+		},
+		"config/enchantment-transfer-config.properties": {
+			"Hash": "26b8321bd3c06a53720bfcc19f5d09a133b6081e",
+			"DownloadLink": null
+		},
+		"config/enchdesc.json": {
+			"Hash": "171e9e9bf1c0eb070d19730bf2eb2a2e049bfbbb",
+			"DownloadLink": null
+		},
+		"config/entity_model_features.json": {
+			"Hash": "811c0f2fdd5cedb153560a9f8a8dd3f1d95b2534",
+			"DownloadLink": null
+		},
+		"config/entity_texture_features.json": {
+			"Hash": "907d2d2c52d47b4f41ee991ba9692ad1bb667da0",
+			"DownloadLink": null
+		},
+		"config/entityculling.json": {
+			"Hash": "b3a71194e960bf326883a019b0287b8a85943891",
+			"DownloadLink": null
+		},
+		"config/etf_warnings.json": {
+			"Hash": "1573fc320a363b30a1a5e4cae1d4596ec177085d",
+			"DownloadLink": null
+		},
+		"config/fabric/indigo-renderer.properties": {
+			"Hash": "9f9e23e2913e515f999c9fe03db738fae5d1158f",
+			"DownloadLink": null
+		},
+		"config/fancymenu/assets/basitopene.jpg": {
+			"Hash": "c72501c2062fac04fc91d8615023d8c63c08450e",
+			"DownloadLink": null
+		},
+		"config/fancymenu/assets/logo.jpg": {
+			"Hash": "c9d8f66f09e1d5652b761cf52776759cdd80ec54",
+			"DownloadLink": null
+		},
+		"config/fancymenu/assets/wp.jpg": {
+			"Hash": "6a0a569959dc3d7408070901e28fbd4101bb0194",
+			"DownloadLink": null
+		},
+		"config/fancymenu/custom_gui_screens.txt": {
+			"Hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c",
+			"DownloadLink": null
+		},
+		"config/fancymenu/customizablemenus.txt": {
+			"Hash": "3375f28d3d53ceb399d2ab9d1b651a8c91df3102",
+			"DownloadLink": null
+		},
+		"config/fancymenu/customization/connect_screen_layout.txt": {
+			"Hash": "686d4c50f8b020b1c03ad9030bcd272aaa5d3746",
+			"DownloadLink": null
+		},
+		"config/fancymenu/customization/progress_screen_layout.txt": {
+			"Hash": "848911b408fe173b4b748c09aedba3b2042e0e11",
+			"DownloadLink": null
+		},
+		"config/fancymenu/customization/receiving_level_screen_layout.txt": {
+			"Hash": "494288684859e034aa49625cb528b02fb66cc9b2",
+			"DownloadLink": null
+		},
+		"config/fancymenu/customization/title_screen_layout.txt": {
+			"Hash": "a232df197a264ec8ecb10643b6c27f22bf753914",
+			"DownloadLink": null
+		},
+		"config/fancymenu/layout_editor/widgets/element_layer_control.lewidget": {
+			"Hash": "adc605cf794120522f34a402a4301baf4e59350d",
+			"DownloadLink": null
+		},
+		"config/fancymenu/legacy_checklist.txt": {
+			"Hash": "f1569161a6ad24cc61b02dece317ea16e351ff1e",
+			"DownloadLink": null
+		},
+		"config/fancymenu/options.txt": {
+			"Hash": "8744cfef6fb5440322417de4ff97900b701b623f",
+			"DownloadLink": null
+		},
+		"config/fancymenu/ui_themes/dark.json": {
+			"Hash": "8bc3d8999f5dde0c62b31424d63dc7d046b70ba9",
+			"DownloadLink": null
+		},
+		"config/fancymenu/ui_themes/light.json": {
+			"Hash": "fb42def9e33a2792c19002a717318ec733283e8d",
+			"DownloadLink": null
+		},
+		"config/fancymenu/user_variables.db": {
+			"Hash": "b41f9d7688944b0d96eaa089a5a5bb74af28d258",
+			"DownloadLink": null
+		},
+		"config/farmersdelight-client.toml": {
+			"Hash": "922ef1cdf87795d0134ca8c0c4b1a9eb290f0ec6",
+			"DownloadLink": null
+		},
+		"config/farmersdelight-common.toml": {
+			"Hash": "98a027a346988a51fbb60dcfed259a5a1a2f2424",
+			"DownloadLink": null
+		},
+		"config/forgeconfigapiport.toml": {
+			"Hash": "37d9782f7c1a42a52bee3b6702eede79663518db",
+			"DownloadLink": null
+		},
+		"config/held-item-info.json": {
+			"Hash": "805b753fa001ffbfa2d3f43a49d4a06eafd63d96",
+			"DownloadLink": null
+		},
+		"config/highlighter-common.toml": {
+			"Hash": "a5b7d8f5f3466ce519e154fd814630409d4cb069",
+			"DownloadLink": null
+		},
+		"config/immediatelyfast.json": {
+			"Hash": "adcb21b0ad5f7f1c124517ff64fc701a737e4ea1",
+			"DownloadLink": null
+		},
+		"config/immersive_armors.json": {
+			"Hash": "b77a53cad3844f94749a9fc458b78ad602f8d501",
+			"DownloadLink": null
+		},
+		"config/immersive_melodies.json": {
+			"Hash": "befd2bf7abd26b60d41c0a4dba8fd67af6350a6d",
+			"DownloadLink": null
+		},
+		"config/immersive_paintings.json": {
+			"Hash": "3fda63d6a6fe8e4eafe9872c58fa8695283e3986",
+			"DownloadLink": null
+		},
+		"config/indium-renderer.properties": {
+			"Hash": "333f056bdb64c7cb7e50a8f39f202cfcbb48104b",
+			"DownloadLink": null
+		},
+		"config/inventoryprofilesnext/34.44.53.132\u002625565/villager-trading-config.json": {
+			"Hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+			"DownloadLink": null
+		},
+		"config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json": {
+			"Hash": "2bedb4d58a778b937dd9da01c50a46af9887709b",
+			"DownloadLink": null
+		},
+		"config/inventoryprofilesnext/inventoryprofiles.json": {
+			"Hash": "bb2c322d8ac50a1610d62929b0a0301cd4fa9384",
+			"DownloadLink": null
+		},
+		"config/inventoryprofilesnext/villager-trading-config.json": {
+			"Hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+			"DownloadLink": null
+		},
+		"config/iris.properties": {
+			"Hash": "22904b15826fe7e2bc2d7023277d5a9a2ff2224d",
+			"DownloadLink": null
+		},
+		"config/jade/hide-blocks.json": {
+			"Hash": "8b3297cc5db5ed84dd48d2905fb21ee3063e0e25",
+			"DownloadLink": null
+		},
+		"config/jade/hide-entities.json": {
+			"Hash": "548656ff89ad489730a4b5fdf071a6e98fcd5033",
+			"DownloadLink": null
+		},
+		"config/jade/jade.json": {
+			"Hash": "a50b1473e4a33916b7491f803495ea9345858e93",
+			"DownloadLink": null
+		},
+		"config/jade/plugins.json": {
+			"Hash": "e2fbaf2755de50a4dd5711fa021ed173ea0565a4",
+			"DownloadLink": null
+		},
+		"config/jade/sort-order.json": {
+			"Hash": "4adc4c101c9e91b318ba63c5dff68026bade2512",
+			"DownloadLink": null
+		},
+		"config/jade/usernamecache.json": {
+			"Hash": "3dfa37dcb3db8109f629093f2a10477ff222dafe",
+			"DownloadLink": null
+		},
+		"config/justzoom/config.txt": {
+			"Hash": "ca8c270324e46212f9bb08acd1ef13d10ead8a21",
+			"DownloadLink": null
+		},
+		"config/konkrete/locals/de_de.local": {
+			"Hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+			"DownloadLink": null
+		},
+		"config/konkrete/locals/en_us.local": {
+			"Hash": "42badc338e767559db38a67bd3e8020a92000e56",
+			"DownloadLink": null
+		},
+		"config/konkrete/locals/pl_pl.local": {
+			"Hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+			"DownloadLink": null
+		},
+		"config/konkrete/locals/pt_br.local": {
+			"Hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+			"DownloadLink": null
+		},
+		"config/lambdynlights.toml": {
+			"Hash": "35fb576c64c803ca4c1d9895239140a219f6617d",
+			"DownloadLink": null
+		},
+		"config/legendarytooltips-common.toml": {
+			"Hash": "858d98a7e3fcfa5c1d44ad7a43b7befcaca2033a",
+			"DownloadLink": null
+		},
+		"config/lithium.properties": {
+			"Hash": "d4d30939d76f2e3e7ab2736e9649be0abcc310c0",
+			"DownloadLink": null
+		},
+		"config/majruszlibrary.json": {
+			"Hash": "5d304daf46502bb39aa5c0fa91ededdc148026b7",
+			"DownloadLink": null
+		},
+		"config/majruszsdifficulty.json": {
+			"Hash": "db0660614aa11d1d259d119558ff346e6bcbecb3",
+			"DownloadLink": null
+		},
+		"config/midnightlib.json": {
+			"Hash": "ef717d24a45baf1406cd1c5600b176cb8b3cb2db",
+			"DownloadLink": null
+		},
+		"config/modmenu.json": {
+			"Hash": "7e4d498194b4cfea3ac311623fe09a3fa2927860",
+			"DownloadLink": null
+		},
+		"config/ping-wheel.json": {
+			"Hash": "043ae1062d8f8e1bdc83f2bcc644879f9ed9966d",
+			"DownloadLink": null
+		},
+		"config/ping-wheel.server.json": {
+			"Hash": "4af89204103333c0e1ea81db64821db56fe7c8d0",
+			"DownloadLink": null
+		},
+		"config/polymorph-integrations.toml": {
+			"Hash": "f1ec0a2fbb209a62700a5ad997aa1c9f1cefa6e2",
+			"DownloadLink": null
+		},
+		"config/resourcify.json": {
+			"Hash": "c20f1bd5c3d4e5913eeeaf047029fafa6109b33b",
+			"DownloadLink": null
+		},
+		"config/simplyswords_extra/backupconfig.json": {
+			"Hash": "ffea216e6054b4f375275f639b620c00399610f8",
+			"DownloadLink": null
+		},
+		"config/simplyswords_extra/loot_config.json5": {
+			"Hash": "9d49ca907b055add2f7f1046d0160abecfc6c3b2",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/gem_effects.json5": {
+			"Hash": "1cd299ddf062d08d690ad4f1f4f406e333a657b3",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/general.json5": {
+			"Hash": "bfd99c4b4986966e4ea54c9c55cb241159723f10",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/loot.json5": {
+			"Hash": "0465d1882ecd255b24ec9ed843883b7476945bb3",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/runic_effects.json5": {
+			"Hash": "c4e84b62644a980b81ca91d519f28d23fe341014",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/status_effects.json5": {
+			"Hash": "f3d5b39d3c41024165a0e850815445ad9d34d5e0",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/unique_effects.json5": {
+			"Hash": "ea69a23c895cc67b10621c47c27ca100278f545a",
+			"DownloadLink": null
+		},
+		"config/simplyswords_main/weapon_attributes.json5": {
+			"Hash": "14d71ca77c7669b70502c57c27330eda61199027",
+			"DownloadLink": null
+		},
+		"config/skinlayers.json": {
+			"Hash": "734feeda8583394bbc92acb6c17281857668a284",
+			"DownloadLink": null
+		},
+		"config/sodium-extra-options.json": {
+			"Hash": "cfc84bd615398a7d3c945f10a227252796a0923b",
+			"DownloadLink": null
+		},
+		"config/sodium-extra.properties": {
+			"Hash": "e90b2514226a0624cf42112b42477f9872598b89",
+			"DownloadLink": null
+		},
+		"config/sodium-fingerprint.json": {
+			"Hash": "96a9a326101508fb6bf210cb1c19d45bf791ed83",
+			"DownloadLink": null
+		},
+		"config/sodium-mixins.properties": {
+			"Hash": "b1fdf3038060accec696177db699276ed074a6d2",
+			"DownloadLink": null
+		},
+		"config/sodium-options.json": {
+			"Hash": "c51034c128f53cf0bcb036b221429f0715613727",
+			"DownloadLink": null
+		},
+		"config/terrablender.toml": {
+			"Hash": "a5a39b3aba47450b5ed3900425f88d070c0ec4fa",
+			"DownloadLink": null
+		},
+		"config/toggleableitemframes.json": {
+			"Hash": "e733e8f32567fb77bdc03ceb21fc860ebd0948e4",
+			"DownloadLink": null
+		},
+		"config/travelersbackpack.json5": {
+			"Hash": "651a1af8cad4534fa89b74d6e7a59451f674acd2",
+			"DownloadLink": null
+		},
+		"config/visuality.json": {
+			"Hash": "ca9d45810ee71c0e60212ab31f727f26eb1348ac",
+			"DownloadLink": null
+		},
+		"config/voidtotem.toml": {
+			"Hash": "41ac56665db0f26d4b7c212b7dc6486c337cdc53",
+			"DownloadLink": null
+		},
+		"config/waveycapes.json": {
+			"Hash": "8ad584f8d837cd849ebe8a98032928a201ef898d",
+			"DownloadLink": null
+		},
+		"config/whereisit.json5": {
+			"Hash": "bf95ba3b946d1e2757c1e20a3628f245b8e6b074",
+			"DownloadLink": null
+		},
+		"config/yacl.json5": {
+			"Hash": "ef6eac77bc8ec50971872b820002db7227ece802",
+			"DownloadLink": null
+		},
+		"config/yungscavebiomes-fabric-1_20_1.toml": {
+			"Hash": "b8e5f0bc3d4c75fb4ec989dbf4df921beb336928",
+			"DownloadLink": null
+		},
+		"config/yungsmenutweaks-fabric-1_20_1.toml": {
+			"Hash": "e8cc36a8f2ea93b9235c8d6fcfcd792e82f2a29f",
+			"DownloadLink": null
+		},
+		"mods/BetterCompatibilityChecker-fabric-4.0.1+mc1.20.1.jar": {
+			"Hash": "0c4dda5c9ebe5fcedd829996a272009f3122630a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/KJhXPbHQ/versions/gatP97QZ/BetterCompatibilityChecker-fabric-4.0.1%2Bmc1.20.1.jar"
+			]
+		},
+		"mods/Bookshelf-Fabric-1.20.1-20.2.13.jar": {
+			"Hash": "67a67945139b0c26bc8075a746b8f0ed571a9b8a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/uy4Cnpcm/versions/CBnLZwRS/Bookshelf-Fabric-1.20.1-20.2.13.jar"
+			]
+		},
+		"mods/Clumps-fabric-1.20.1-12.0.0.4.jar": {
+			"Hash": "a20cfe0b0ee0b897887f81c4919af9d220ba22e7",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Wnxd13zP/versions/hefSwtn6/Clumps-fabric-1.20.1-12.0.0.4.jar"
+			]
+		},
+		"mods/Companion-1.20.1-Fabric-5.2.2.jar": {
+			"Hash": "9d0890754fb088ba69662cffdbe3295810b699ef",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/4w0EzGRW/versions/SPXivNuG/Companion-1.20.1-Fabric-5.2.2.jar"
+			]
+		},
+		"mods/EasyAnvils-v8.0.2-1.20.1-Fabric.jar": {
+			"Hash": "c889871e3cbd51d513139050069cfc30e0254dac",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/OZBR5JT5/versions/pA1enJAS/EasyAnvils-v8.0.2-1.20.1-Fabric.jar"
+			]
+		},
+		"mods/EchoChest-v8.0.0-1.20.1-Fabric.jar": {
+			"Hash": "90cee7d46546f41ee85d84afcadd36b612557868",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/m3pkVbY8/versions/ppi4nxw2/EchoChest-v8.0.0-1.20.1-Fabric.jar"
+			]
+		},
+		"mods/EnchantmentDescriptions-Fabric-1.20.1-17.1.19.jar": {
+			"Hash": "1b00b494f7a4626d7dc15805fc3449a86a0137bc",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/UVtY3ZAC/versions/LeAiyr1s/EnchantmentDescriptions-Fabric-1.20.1-17.1.19.jar"
+			]
+		},
+		"mods/FarmersDelight-1.20.1-2.2.4+refabricated.jar": {
+			"Hash": "e288cd8c50236848e46ea381202b7e183a820a77",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/7vxePowz/versions/Ms2QOr1b/FarmersDelight-1.20.1-2.2.4%2Brefabricated.jar"
+			]
+		},
+		"mods/FarmersDelight-Expansion-1.2.2+1.20.1.jar": {
+			"Hash": "4e191f90c94f10e98853052c96d1a8199a913586",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/O158bLYR/versions/SlftDV3O/FarmersDelight-Expansion-1.2.2%2B1.20.1.jar"
+			]
+		},
+		"mods/Fishingreal-1.20.1-1.7.2.jar": {
+			"Hash": "c794dc2f630fde88b39bd2cc75a83000fb6b8de8",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/MIdaKqt7/versions/wajSCh7f/Fishingreal-1.20.1-1.7.2.jar"
+			]
+		},
+		"mods/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar": {
+			"Hash": "168c1195e30e1ea93da14a62c936c11b43f64748",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/ohNO6lps/versions/Qs8LaZLo/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar"
+			]
+		},
+		"mods/GlitchCore-fabric-1.20.1-0.0.1.1.jar": {
+			"Hash": "0d4c5b1a39746a3f5bec08b876a484ac5a6d248f",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/s3dmwKy5/versions/25HLOiOl/GlitchCore-fabric-1.20.1-0.0.1.1.jar"
+			]
+		},
+		"mods/Jade-1.20-Fabric-11.12.0.jar": {
+			"Hash": "a963ffed9599badbec94fdd1341bdddff228ba95",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/nvQzSEkH/versions/Lvyx1o7I/Jade-1.20-Fabric-11.12.0.jar"
+			]
+		},
+		"mods/JadeAddons-1.20.1-Fabric-5.4.0.jar": {
+			"Hash": "326c7080c34972bb693457f26b20d509ae03e293",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/fThnVRli/versions/DSkzT8Ma/JadeAddons-1.20.1-Fabric-5.4.0.jar"
+			]
+		},
+		"mods/Kiwi-1.20.1-Fabric-11.8.28.jar": {
+			"Hash": "3da3d1361e5d47fa43b5e3dcbcc416730365fb0f",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/ufdDoWPd/versions/vXiIlQ0y/Kiwi-1.20.1-Fabric-11.8.28.jar"
+			]
+		},
+		"mods/LuckPerms-Fabric-5.4.102.jar": {
+			"Hash": "891e2404c0f9790e704e29faa98241178e29fc20",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Vebnzrzj/versions/7PNj6nCm/LuckPerms-Fabric-5.4.102.jar"
+			]
+		},
+		"mods/MoreChestVariants-1.5.6+1.20.2-Fabric.jar": {
+			"Hash": "408c77d495c04e547903fecb02fae0cf34cf776f",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/HKKqmr2p/versions/4RTlXzWr/MoreChestVariants-1.5.6%2B1.20.2-Fabric.jar"
+			]
+		},
+		"mods/Ping-Wheel-1.10.0-fabric-1.20.1.jar": {
+			"Hash": "a651e73c995f04e9ef2553a40b0cbf4770bd2c31",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/QQXAdCzh/versions/2Y3dASD3/Ping-Wheel-1.10.0-fabric-1.20.1.jar"
+			]
+		},
+		"mods/Prism-1.20.1-fabric-1.0.5.jar": {
+			"Hash": "cd169ef91788fed7e1025e5d2273d61978898e52",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/1OE8wbN0/versions/Fmetb8IP/Prism-1.20.1-fabric-1.0.5.jar"
+			]
+		},
+		"mods/PuzzlesLib-v8.1.25-1.20.1-Fabric.jar": {
+			"Hash": "d9c8ad40fcf20016d4b4764f8001aacfc02f16b9",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/QAGBst4M/versions/qjSRRf2B/PuzzlesLib-v8.1.25-1.20.1-Fabric.jar"
+			]
+		},
+		"mods/Quad-1.2.9+1.20.4-Fabric.jar": {
+			"Hash": "ecc9c675b7bb2cc5cdcb658d81064d266b07f5aa",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/7jzrCiK0/versions/13NoFEPW/Quad-1.2.9%2B1.20.4-Fabric.jar"
+			]
+		},
+		"mods/ShowMeWhatYouGot-1.20-1.1.1.jar": {
+			"Hash": "ffbce7e75dbede02dd9f86fc8fb543598d1c336d",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/jTUiUpsh/versions/fQQ8wvKT/ShowMeWhatYouGot-1.20-1.1.1.jar"
+			]
+		},
+		"mods/TerraBlender-fabric-1.20.1-3.0.1.7.jar": {
+			"Hash": "1cecfcd662e75da668ee6f1ed6be66e9815f2178",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/kkmrDlKT/versions/FZV63yhg/TerraBlender-fabric-1.20.1-3.0.1.7.jar"
+			]
+		},
+		"mods/YetAnotherConfigLib-3.6.2+1.20.1-fabric.jar": {
+			"Hash": "fe66c7001dbd3e6d58864ff029f7de37614b605c",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/1eAoo2KR/versions/yDSgD8Iz/YetAnotherConfigLib-3.6.2%2B1.20.1-fabric.jar"
+			]
+		},
+		"mods/YungsApi-1.20-Fabric-4.0.6.jar": {
+			"Hash": "8d39c739b534e7351e9fdabf045f171a4e45c98a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Ua7DFN59/versions/lscV1N5k/YungsApi-1.20-Fabric-4.0.6.jar"
+			]
+		},
+		"mods/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar": {
+			"Hash": "b8de6410b1ae57a49848f172d5310dc79e731b25",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/XNlO7sBv/versions/1Z9HNWpj/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar"
+			]
+		},
+		"mods/YungsBetterDungeons-1.20-Fabric-4.0.4.jar": {
+			"Hash": "cb4ea32fe75c9dbcd62f6f3d3f912c1b79ac697a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/o1C1Dkj5/versions/nidyvq2m/YungsBetterDungeons-1.20-Fabric-4.0.4.jar"
+			]
+		},
+		"mods/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar": {
+			"Hash": "169bc72b247240b79cad00751e2d5a2b7493a389",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/2BwBOmBQ/versions/qJTsmyiE/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar"
+			]
+		},
+		"mods/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar": {
+			"Hash": "e0c5366159af63c1a0b110ce1a62750d3d75d978",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/z9Ve58Ih/versions/6LPrzuB0/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar"
+			]
+		},
+		"mods/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar": {
+			"Hash": "dda3af404d6958f6fed882b8b4ae7827ac78944b",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/HjmxVlSr/versions/qLnQnqXS/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar"
+			]
+		},
+		"mods/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar": {
+			"Hash": "837560db615bad870809e09436e943c4324301d1",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Z2mXHnxP/versions/FL88RLRu/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar"
+			]
+		},
+		"mods/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar": {
+			"Hash": "e4e512ae388a57d4eb383657e52707c01283d7be",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/3dT9sgt4/versions/4c00pjbt/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar"
+			]
+		},
+		"mods/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar": {
+			"Hash": "f7a5eb03935abe845c6691ae99ae42889fdd5da1",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/kidLKymU/versions/yV6hn0bB/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar"
+			]
+		},
+		"mods/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar": {
+			"Hash": "2803abcf20bf150aa735faa409a23406da69415c",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/t5FRdP87/versions/lYpHN3iF/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar"
+			]
+		},
+		"mods/YungsBridges-1.20-Fabric-4.0.3.jar": {
+			"Hash": "e6be5c5fb116b50ff75910015b19fcc6dadaf4e6",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Ht4BfYp6/versions/hvfjXu8d/YungsBridges-1.20-Fabric-4.0.3.jar"
+			]
+		},
+		"mods/YungsCaveBiomes-1.20.1-Fabric-2.0.0.jar": {
+			"Hash": "7f12f56df8d2ccb8e58a374ad770be73dc65ef74",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/cs7iGVq1/versions/FyOxLDbe/YungsCaveBiomes-1.20.1-Fabric-2.0.0.jar"
+			]
+		},
+		"mods/YungsExtras-1.20-Fabric-4.0.3.jar": {
+			"Hash": "356c7fa28e0929317c151d75ead603035521eaa3",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/ZYgyPyfq/versions/pfVTUz1L/YungsExtras-1.20-Fabric-4.0.3.jar"
+			]
+		},
+		"mods/antixray-fabric-1.4.6+1.20.1.jar": {
+			"Hash": "57a48f285530096e10185756e10c62804a8def92",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/sml2FMaA/versions/6vxHsVZq/antixray-fabric-1.4.6%2B1.20.1.jar"
+			]
+		},
+		"mods/architectury-9.2.14-fabric.jar": {
+			"Hash": "4fa65e32dbf63a871a30fe8ec6fbff9a4b8d007d",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/lhGA9TYQ/versions/WbL7MStR/architectury-9.2.14-fabric.jar"
+			]
+		},
+		"mods/audioplayer-fabric-1.20.1-1.13.1.jar": {
+			"Hash": "555629bf48dc92b206a6828429ccfea84edc9f65",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/SRlzjEBS/versions/7LsFhSCP/audioplayer-fabric-1.20.1-1.13.1.jar"
+			]
+		},
+		"mods/betterstats-3.12.6+fabric-1.20.1.jar": {
+			"Hash": "bda0ac4e8937cfbe38f9a4a8aadb77f6a882407e",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/n6PXGAoM/versions/Ktw36uDC/betterstats-3.12.6%2Bfabric-1.20.1.jar"
+			]
+		},
+		"mods/brainierbees-1.5.jar": {
+			"Hash": "fe94935147e1d320c3d481bead9b4b8385e85640",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/O2WJc0f3/versions/bMTsZrpW/brainierbees-1.5.jar"
+			]
+		},
+		"mods/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar": {
+			"Hash": "e75325ce06c3e5c48902c04d8f7d8f09feba7136",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/VSNURh3q/versions/LRL5QAZY/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.13.jar"
+			]
+		},
+		"mods/cardinal-components-api-5.2.2.jar": {
+			"Hash": "b049c6342185dae10607d6c1fe2fd792db189582",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/K01OU20C/versions/qW85eawp/cardinal-components-api-5.2.2.jar"
+			]
+		},
+		"mods/cicada-lib-0.10.2+1.20.1.jar": {
+			"Hash": "056832a93f1a12cf69da360bb8b6cc63bf3e7ea9",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/IwCkru1D/versions/cdcYbTHt/cicada-lib-0.10.2%2B1.20.1.jar"
+			]
+		},
+		"mods/cloth-config-11.1.136-fabric.jar": {
+			"Hash": "d5fe84a0cc9ed5c7290a76ba570e1f8716afecab",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/9s6osm5g/versions/2xQdCMyG/cloth-config-11.1.136-fabric.jar"
+			]
+		},
+		"mods/collective-1.20.1-7.87.jar": {
+			"Hash": "6b30430c4737fddf0ee1913a198bcce0f5230a21",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/e0M1UDsY/versions/aNzU64AT/collective-1.20.1-7.87.jar"
+			]
+		},
+		"mods/comforts-fabric-6.4.0+1.20.1.jar": {
+			"Hash": "96c1b52fa6dcff140b56e17ce980d2a5c528fad2",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/SaCpeal4/versions/pMr60Kkq/comforts-fabric-6.4.0%2B1.20.1.jar"
+			]
+		},
+		"mods/deeperdarker-fabric-1.20-1.3.3.jar": {
+			"Hash": "0231e175189dfcfe3443cb7b034c414544348cc8",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/fnAffV0n/versions/BCzjX2ii/deeperdarker-fabric-1.20-1.3.3.jar"
+			]
+		},
+		"mods/diversity-fabric-1.20.1-2.2.1.jar": {
+			"Hash": "12414fce6e5650b5e8287ba10745abb337f4570f",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/31qnTHav/versions/Qe3tnexv/diversity-fabric-1.20.1-2.2.1.jar"
+			]
+		},
+		"mods/easy_mob_farm-fabric-1.20.1-8.9.1.jar": {
+			"Hash": "87371eb73bcfb15e5c21762c66307b9f2d397978",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/crxsDbEo/versions/PCnut4Sv/easy_mob_farm-fabric-1.20.1-8.9.1.jar"
+			]
+		},
+		"mods/elytraslot-fabric-6.4.4+1.20.1.jar": {
+			"Hash": "1c8ac3502cb72cd76a804fa7ee31ea535de0bcdf",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/mSQF1NpT/versions/7w60aZYA/elytraslot-fabric-6.4.4%2B1.20.1.jar"
+			]
+		},
+		"mods/enchanted-vertical-slabs-2.2.1-backport1.20.1-fabric-mc1.20.1.jar": {
+			"Hash": "a3da82b5bc47cd8940cde546d37ffe017547ec2b",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/TG1cHkRf/versions/p53Gwy1h/enchanted-vertical-slabs-2.2.1-backport1.20.1-fabric-mc1.20.1.jar"
+			]
+		},
+		"mods/enchantment-transfer-0.0.6-fabric-1.20.1.jar": {
+			"Hash": "cbca1f00c4e3afc4a5f81bc5a2362b7404cbaa7c",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/VLBJHtK0/versions/FL3LK1x8/enchantment-transfer-0.0.6-fabric-1.20.1.jar"
+			]
+		},
+		"mods/fabric-api-0.92.2+1.20.1.jar": {
+			"Hash": "625ee015ee426d9b677382a7bb661383d89c0807",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/P7dR8mSH/versions/P7uGFii0/fabric-api-0.92.2%2B1.20.1.jar"
+			]
+		},
+		"mods/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar": {
+			"Hash": "e3d4ebcc5aef85967ba622f9631e0897cbcd4e2c",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Ha28R6CL/versions/csX9r2wS/fabric-language-kotlin-1.13.0%2Bkotlin.2.1.0.jar"
+			]
+		},
+		"mods/farmers-delight-fabric-1.4.3.jar": {
+			"Hash": "758d7931e769dc4a78ff6642976cffbe75a522cb",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/4EakbH8e/versions/QXYNitXw/farmers-delight-fabric-1.4.3.jar"
+			]
+		},
+		"mods/fixedanvilrepaircost-1.20.1-3.4.jar": {
+			"Hash": "44e5cbba37d101f99cb970096c40ce6871c6a858",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/jmLyNFBG/versions/wcnSdq3t/fixedanvilrepaircost-1.20.1-3.4.jar"
+			]
+		},
+		"mods/forgottengraves-3.2.17+1.20.1.jar": {
+			"Hash": "ce9d3cf71adfdc8e5413454ff95b7cedf65a4e70",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/FrZIkosK/versions/9o3wZXgd/forgottengraves-3.2.17%2B1.20.1.jar"
+			]
+		},
+		"mods/fzzy_config-0.5.9+1.20.1.jar": {
+			"Hash": "7476aee7c341496ceace79dd1480b173ae0c027e",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/hYykXjDp/versions/rCqTwPkm/fzzy_config-0.5.9%2B1.20.1.jar"
+			]
+		},
+		"mods/geckolib-fabric-1.20.1-4.4.9.jar": {
+			"Hash": "0a140e385c029bbedd5a62903c4b6c7bd451d71b",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/8BmcQJ2H/versions/9VG3hx3F/geckolib-fabric-1.20.1-4.4.9.jar"
+			]
+		},
+		"mods/healingcampfire-1.20.1-6.1.jar": {
+			"Hash": "0155985524ded9e7aa1edc63e1904e89856b53d3",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/kOuPUitF/versions/sfesmy1R/healingcampfire-1.20.1-6.1.jar"
+			]
+		},
+		"mods/htm-1.1.9.jar": {
+			"Hash": "4e82e8eee204860e2353e6584496be3862df1466",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/IEPAK5x6/versions/RU6DuGfk/htm-1.1.9.jar"
+			]
+		},
+		"mods/immersive_armors-1.6.1+1.20.1-fabric.jar": {
+			"Hash": "6eb2b500754a7cec6628e1c16bbedbcaf90cae13",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/eE2Db4YU/versions/Waf0D48D/immersive_armors-1.6.1%2B1.20.1-fabric.jar"
+			]
+		},
+		"mods/immersive_melodies-0.3.0+1.20.1-fabric.jar": {
+			"Hash": "013bf2b412e06b8492feead8bc280a151dc949ce",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/TaSmHw8V/versions/oVk9fOQD/immersive_melodies-0.3.0%2B1.20.1-fabric.jar"
+			]
+		},
+		"mods/immersive_paintings-0.6.7+1.20.1-fabric.jar": {
+			"Hash": "c68aedc021ee8b89595de9ebee968ef1bbb29ec4",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/6txNkua3/versions/UjL11A4h/immersive_paintings-0.6.7%2B1.20.1-fabric.jar"
+			]
+		},
+		"mods/journeymap-1.20.1-5.10.3-fabric.jar": {
+			"Hash": "79c73992c1f0240144e49d946cd62f8033d796cf",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/lfHFW1mp/versions/ThfZM7jC/journeymap-1.20.1-5.10.3-fabric.jar"
+			]
+		},
+		"mods/konkrete_fabric_1.8.1_MC_1.20.1.jar": {
+			"Hash": "38d3201d95a08bdeb12a8cd3687c6d0b8f5e7f3d",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/J81TRJWm/versions/RlBGFlWp/konkrete_fabric_1.8.1_MC_1.20.1.jar"
+			]
+		},
+		"mods/libIPN-fabric-1.20-4.0.2.jar": {
+			"Hash": "c8c4d93037efb226b6bd3264e33df4c010cb111b",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/onSQdWhM/versions/Uygzs3iI/libIPN-fabric-1.20-4.0.2.jar"
+			]
+		},
+		"mods/lithium-fabric-mc1.20.1-0.11.2.jar": {
+			"Hash": "8f4642147e60827f728badac7a819d1a9f3b25d5",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/gvQqBUqZ/versions/ZSNsJrPI/lithium-fabric-mc1.20.1-0.11.2.jar"
+			]
+		},
+		"mods/majrusz-library-fabric-1.20.1-7.0.8.jar": {
+			"Hash": "d3f0b815441a140ea66569807d42e9fe58b4c8e0",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/PYQD8noM/versions/nfkUUMHq/majrusz-library-fabric-1.20.1-7.0.8.jar"
+			]
+		},
+		"mods/majruszs-difficulty-fabric-1.20.1-1.9.10.jar": {
+			"Hash": "0703977d638373ac1eee276ce7dffba489c50145",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/GGDBwjOg/versions/4QlCUN5g/majruszs-difficulty-fabric-1.20.1-1.9.10.jar"
+			]
+		},
+		"mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar": {
+			"Hash": "15eeff0c0fd8b4734492915c656077592b2d9e67",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/CVT4pFB2/versions/2o0oW8Yv/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+			]
+		},
+		"mods/mineralchance-1.20.1-3.7.jar": {
+			"Hash": "f0a008dca39921e500587cbf67f6eb9df3ae912e",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/bu1hACOl/versions/5bETfkTn/mineralchance-1.20.1-3.7.jar"
+			]
+		},
+		"mods/modmenu-7.2.2.jar": {
+			"Hash": "099c68feeb74887cbbbd8ce9a27c6123804a2c5a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/mOgUt4GM/versions/lEkperf6/modmenu-7.2.2.jar"
+			]
+		},
+		"mods/mods-command-mc1.20.1-1.1.3.jar": {
+			"Hash": "b5cc2800b2fed698d8276504a25c553c6f508c09",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/PExmWQV8/versions/JlWCTVC5/mods-command-mc1.20.1-1.1.3.jar"
+			]
+		},
+		"mods/owo-lib-0.11.2+1.20.jar": {
+			"Hash": "be88938ca5df78271e64bc9f85c3575754f33e2a",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/ccKDOlHs/versions/zyOBB7J4/owo-lib-0.11.2%2B1.20.jar"
+			]
+		},
+		"mods/polymorph-fabric-0.49.8+1.20.1.jar": {
+			"Hash": "d24310a6e760dfe0e8b6fd93f4f6be9dae441056",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/tagwiZkJ/versions/z88tNWJh/polymorph-fabric-0.49.8%2B1.20.1.jar"
+			]
+		},
+		"mods/progressivearchery-1.1.3.a-1.20.1+trinkets.jar": {
+			"Hash": "e893861f6eae6b0f58553595da2d0898d4b6260f",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/QgHW53j5/versions/Qjz5Mg35/progressivearchery-1.1.3.a-1.20.1%2Btrinkets.jar"
+			]
+		},
+		"mods/simplyswords-fabric-1.56.0-1.20.1.jar": {
+			"Hash": "6243b46a0ce782f6071243cd2a604470aaf38d77",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/bK3Ubu9p/versions/xe5E39uw/simplyswords-fabric-1.56.0-1.20.1.jar"
+			]
+		},
+		"mods/tcdcommons-3.12.3+fabric-1.20.1.jar": {
+			"Hash": "4f10da2e05caec006b7ee1c41bd2c95dc0bde0b7",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/Eldc1g37/versions/Gob4d0A8/tcdcommons-3.12.3%2Bfabric-1.20.1.jar"
+			]
+		},
+		"mods/toggleableitemframes-5.1.0-1.20.1.jar": {
+			"Hash": "80bdcaa688b4737b2ad030363f688858f6f08cd5",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/sv9FlLct/versions/s5ww6N7E/toggleableitemframes-5.1.0-1.20.1.jar"
+			]
+		},
+		"mods/travelersbackpack-fabric-1.20.1-9.1.18.jar": {
+			"Hash": "ea1840e53614927b3bd03f8b1de1e32f33a525f2",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/rlloIFEV/versions/ZHltcaKk/travelersbackpack-fabric-1.20.1-9.1.18.jar"
+			]
+		},
+		"mods/trinkets-3.7.2.jar": {
+			"Hash": "d58cc8759587f03f320f188972ca66baa788d008",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/5aaWibi9/versions/AHxQGtuC/trinkets-3.7.2.jar"
+			]
+		},
+		"mods/voicechat-fabric-1.20.1-2.5.27.jar": {
+			"Hash": "fe84df36e9061dafe7abbc102ed3428e9fcd8eac",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/9eGKb6K1/versions/IZhZbWUU/voicechat-fabric-1.20.1-2.5.27.jar"
+			]
+		},
+		"mods/voidtotem-fabric-1.20-3.0.1.jar": {
+			"Hash": "2ad3c87fa12efe9322acbaa7370664677b2c1f77",
+			"DownloadLink": [
+				"https://cdn.modrinth.com/data/q6eiiQ07/versions/vxRaiz6G/voidtotem-fabric-1.20-3.0.1.jar"
+			]
+		}
+	},
+	"dependencies": {
+		"minecraft": "1.20.1",
+		"fabric-loader": "0.16.9",
+		"quilt-loader": "",
+		"forge": ""
+	}
+}

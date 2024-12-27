@@ -1,0 +1,9 @@
+{
+    "ModSettings": {
+        "sort_order": "ACCUMULATED_COUNT_DESCENDING",
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    }
+}

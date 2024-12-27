@@ -1,0 +1,87 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				wolf = true
+				squid = true
+				zombie = true
+				chicken = true
+				skeleton = true
+				cow = true
+				sheep = true
+				item = true
+				creeper = true
+				spider = true
+				bat = true
+				enderman = true
+				glow_squid = true
+				pig = true
+				witch = true
+				dolphin = true
+				tropical_fish = true
+				cod = true
+				experience_orb = true
+				zombie_villager = true
+				drowned = true
+				husk = true
+				stray = true
+				pufferfish = true
+				salmon = true
+				pillager = true
+				bee = true
+				chest_minecart = true
+				slime = true
+				egg = true
+				horse = true
+				allay = true
+				axolotl = true
+				lightning_bolt = true
+				parrot = true
+				donkey = true
+				ocelot = true
+				arrow = true
+				panda = true
+				tnt_minecart = true
+				area_effect_cloud = true
+				experience_bottle = true
+				iron_golem = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				tank = true
+				creeperling = true
+				cursed_armor = true
+
+			[light_sources.settings.entities.progressivearchery]
+				flint_arrow = true
+				copper_arrow = true
+				wooden_arrow = true
+				golden_arrow = true
+				wooden_kid_arrow = true
+				iron_arrow = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				sand_snapper = true
+
