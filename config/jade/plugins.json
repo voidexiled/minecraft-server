@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -58,8 +61,5 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "chesttracker": {
-    "memory_preview": true
   }
 }
